@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+footer {
+  color: #d4d4d4;
+  background: #454545;
+  bottom: 0;
+  width: 100%;
+  position: absolute;
+}
+.footer-left{
+  display: inline-block;
+  vertical-align: middle;
+  padding: 17px 10px 0;
+}
+.footer-right{
+  width: 600px;
+  display: inline-block;
+  padding: 17px 10px 0;
+  float: right;
+}
+.footer-right img{
+  float: left;
+  margin: 15px 0 0;
+}

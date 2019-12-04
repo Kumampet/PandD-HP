@@ -1,0 +1,200 @@
+@charset "UTF-8";
+
+.header_logo{
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+.logo{
+  text-align: center;
+  width: auto;
+}
+.logo .main-logo{
+  width: 30%;
+}
+.logo .aniv-logo{
+  width: 8%;
+}
+
+/*----menu----*/
+#site_header{
+  position: absolute;
+  top: 0;
+}
+.menu{
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #454545;
+}
+.menu ul li{
+  display: inline;
+  list-style-type: none;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.menu ul{
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.menu li{
+  margin: 5px 10px;
+}
+.menu > ul > li > a{
+  color: #aaaaaa;
+  display: inline;
+  line-height: 50px;
+  padding: 10px 10px;
+  font-size: 130%;
+  text-decoration: none;
+}
+.menu > ul > li >a:hover {
+  background-color: #002b5e;
+  border-radius: 20px;
+}
+.menu > ul > li:hover > a {
+  color: rgb( 255, 255, 255 );
+}
+/*----ナビゲーションドロワー----*/
+#nav-drawer {
+  position: relative;
+}
+
+/*チェックボックス等は非表示に*/
+.nav-unshown {
+  display:none;
+}
+
+/*アイコンのスペース*/
+#nav-open {
+  position: fixed;
+  display: block;
+  margin: 15px 20px;
+  width: 35px;
+  height: 20px;
+  vertical-align: middle;
+}
+
+/*ハンバーガーアイコンをCSSだけで表現*/
+#nav-open span, #nav-open span:before, #nav-open span:after {
+  position: absolute;
+  height: 5px;/*線の太さ*/
+  width: 35px;/*長さ*/
+  border-radius: 3px;
+  background: #555;
+  display: block;
+  content: '';
+  cursor: pointer;
+}
+#nav-open span:before {
+  bottom: -10px;
+}
+#nav-open span:after {
+  bottom: -20px;
+}
+
+/*閉じる用の薄黒カバー*/
+#nav-close {
+  display: none;/*はじめは隠しておく*/
+  position: fixed;
+  z-index: 99;
+  top: 0;/*全体に広がるように*/
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0;
+  transition: .3s ease-in-out;
+}
+
+/*中身*/
+#nav-content {
+  overflow: auto;
+  position: fixed;
+  padding: 30px 0;
+  top: 0;
+  left: 0;
+  z-index: 9999;/*最前面に*/
+  width: 50%;/*右側に隙間を作る（閉じるカバーを表示）*/
+  max-width: 330px;/*最大幅（調整してください）*/
+  height: 100%;
+  background: #000000;/*背景色*/
+  transition: .3s ease-in-out;/*滑らかに表示*/
+  -webkit-transform: translateX(-105%);
+  transform: translateX(-105%);/*左に隠しておく*/
+}
+#nav-content > nav > ul li{
+  display: block;
+  list-style-type: none;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+#nav-content > nav > ul{
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+#nav-content > nav > li{
+  margin: 5px 10px;
+}
+#nav-content > nav > ul > li > a{
+  color: #ffffff;
+  display: inline;
+  line-height: 50px;
+  padding: 10px 10px;
+  font-size: 130%;
+  text-decoration: none;
+}
+#nav-content > nav > ul > li >a:hover {
+  background-color: #002b5e;
+  border-radius: 20px;
+}
+#nav-content > nav > ul > li:hover > a {
+  color: rgb( 255, 255, 255 );
+}
+.return-btn p{
+  color: #ffffff;
+  margin: 5px 10px;
+}
+/*チェックが入ったらもろもろ表示*/
+#nav-input:checked ~ #nav-close {
+  display: block;/*カバーを表示*/
+  opacity: .5;
+}
+
+#nav-input:checked ~ #nav-content {
+  -webkit-transform: translateX(0%);
+  transform: translateX(0%);/*中身を表示（右へスライド）*/
+  box-shadow: 6px 0 25px rgba(0,0,0,.15);
+}
+#layout{
+  margin: 0;
+}
+
+/*--image slide*/
+.container{
+  text-align: center;
+  margin: 0 auto;
+  padding: 40px;
+  width: 899px;
+  color: #333;
+}
+.container > .item{
+  width: auto;
+}
+.slick-slide{
+  text-align: center;
+  color: #419be0;
+  background: white;
+}
+@media screen and (max-width: 970px) {
+  .container{
+    width: 90%;
+    padding: 10px 0;
+  }
+  .container img{
+    width: 100px;
+  }
+}

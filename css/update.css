@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+.update{
+  background: #000000;
+  color: #ffffff;
+  border-radius: 30px 30px 30px 30px;
+  width: 70%;
+  margin: 10px auto 30px;
+}
+.update > h2{
+  text-align: center;
+  padding: 5px;
+}
+@media screen and (max-width: 500px) {
+  .update{
+    width: 70%;
+  }
+  .update > h2{
+    width: 100%;
+    font-size: 100%;
+  }
+}

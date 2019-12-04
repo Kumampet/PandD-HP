@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="./css/ketarou.css">
+	<script src="./js/jq.js"></script>
+	<script src="./js/ketarou.js"></script>
+</head>
+<body>
+	<!--
+	ソースコードは見ない方がよいぞい
+	やっつけ工事たくさん
+	-->
+	<div class ="wrapper">
+	<div id ="header">	</div>
+	<div id="wrapper">
+		
+		<div id="main">
+			<img src="ketarou.jpg" width ="120" height="50">			
+			<div id ="icon">
+				<div id ="img" >
+					<div id="Keyblock" ></div>
+				</div>
+				<h3>けたろう</h3>
+				<h4>↑鍵を解いて<br>アイコンを<br>完成させよう！<br>特に意味はないぞ！</h4>
+				<div class="twitter">
+					<input type="button" onclick="window.open('https://twitter.com/Ke_Tarou_')" value="けたろうのtwitter"></div>
+				<!-- icon --></div>
+			<div id="canvace">
+				<h5>　　プロフィール　　作品　　 ブックマーク　　フィード</h5>　
+				<div id ="samune">
+				<h4>投稿したイラスト・漫画</h4>
+					<ul>
+				<li><img src="pos1.jpg""/><p>poster</p></li>
+				<li><img src="pos2.jpg"/><p>poster</p></li>
+				<li><img src="ge-.jpg"/><p>ゲームの素材</p></li>
+					</ul>
+				</div>
+				<div id="prof">
+				<h4>プロフィール</h4><br>
+				<table>
+					<tr>
+						<th>ハンドルネーム</th>
+						<td>けたろう</td>
+					</tr>
+					<tr>
+						<th>性別</th>
+						<td>男</td>
+					</tr>
+					<tr>
+						<th>学年</th>
+						<td>４年生</td>
+				
+					</tr>
+					<tr>
+						<th>役職</th>
+						<td>グラフィッカー（主に２D）<br> ３Dもほんの少し出来る</td>
+					</tr>
+					<tr>
+						<th>出来そうなこと</th>
+						<td>キャラクター　背景　ドット　3Dモデル（人物はきついかも）<br>
+女の子とかなら喜んでかくと思うよ。ゲームの小物とかも多分出来る。GUIも簡単なものなら
+						</td>
+					</tr>
+					<tr>
+						<th>自己紹介</th>
+						<td>グラフィッカーのけたろうです。<br>
+							部室にはそこそこの頻度で現れると思う。<br>
+							主に書いているものは女の子。最近はイケメンとおっさんを練習してたりする。<br><br>
+							好きなゲームはFPSとかアイマスとかポケモンとか艦これとか。
+							最近は全くやってないけどね。<br>
+							アニメはだいたい見てます。テンポいいアニメは大好き。<br>
+							あと声優のアドリブアニメも大抵は好きです。<br>
+							Pであり提督である。<br>
+							グラフィッッカーでなんかわからないことあったらどんどん質問してくだされ。<br>
+							よろしくー
+						</td>
+					</tr>
+				</table>
+				<!-- prof -->	</div>
+				<div id="Envi">
+					<h4>作業環境</h4><br>
+					<table>
+						<tr>
+							<th>コンピュータ</th>
+							<td>macbookair win7</td>
+						</tr>
+						<tr>
+							<th>ソフト</th>
+							<td>SAI　クリスタ　Blender　Live2D</td>
+						</tr>
+						<tr>
+							<th>タブレット</th>
+							<td>intious4 M</td>
+							
+						</tr>
+						<tr>
+							<th>絵を書くときに聞く音楽</th>
+							<td>アイマスアイカツ<br>あとはアニメを垂れ流す</td>
+					</table>
+				</div>
+				
+				
+				<!-- canvace -->		</div>
+			<div id="introduction"> <!-- スキップ用プロフ -->
+				<table>
+					<tr>
+						<th>ハンドルネーム</th>
+						<td>けたろう</td>
+					</tr>
+					<tr>
+						<th>役職</th>
+						<td>グラフィッカー</td>
+					</tr>
+					
+					<tr>
+						<th>学年</th>
+						<td>４年生</td>
+					</tr>
+					<tr>
+						<th>趣味・特技</th>
+						<td>アニメ鑑賞・お絵描き</td>
+					</tr>
+			<tr>
+				<th>自己紹介</th>
+				<td>
+					女の子とか自然物とかなら一応描けます。
+					ドットも出来なくはない、3Dも頑張ればできそう。
+					最近は自らコーディングしようと模索中…<br><br><br>
+					
+〜このプロフについて〜<br>
+					ドット絵の女の子をキーボードで動かしてアイコンまで移動させよう<br>
+					アイコンには鍵がかかっているようだ、このままでは完成しないぞ。どこかに鍵があるかも…？<br>
+					完成すると詳しいプロフィールが見れます<br>
+					
+					<a style="color:white">!を押すとスキップできます。</a>
+					<!-- ここに好きなことを書き入れてください -->
+				</td>
+			</tr>
+			
+				</table>
+				<a  href="#" onClick="document.getElementById('introduction').style.display='none';">閉じる</a>
+	</div>
+
+		<div id ="info">キーボードでキャラを動かせるよ　対応　j:[←]　i:[↑]　k:[↓]　l:[→]</div>
+		<div class ="char" id ="char" name ="char"> </div>
+	<div id ="Key"></div> 
+		<a id ="skip"><img border=0 src="skip.png"></a>
+
+
+			<div id="ad_footer">
+		<div>
+			<img class ="ad" src ="ad.png"/></div></div>
+	<!-- main --></div>
+		<!--  id wrapper --></div>
+	<!-- class wrapper　全体--></div>
+		<div id="overlay"></div>
+</body>
+</html>

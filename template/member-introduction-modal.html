@@ -1,0 +1,39 @@
+<!--Template-->
+<div id="user">
+  <div class="modal-open" id="[user-name]" >//user-nameにハンネを入れる
+    <p>Kumampet</p>
+    <div class="info-source" id="[user-name]">//上のuser-nameと同じ名前を入れる
+      <p class="name">[ハンドルネーム]</p>//表示させるハンドルネームを入れる
+      <p class="job">[役職]</p>//役職を入れる。複数記入も可
+      <ul class="join">
+        //参加したゲームをリスト形式で記入
+        //Example
+        <li>[Game_Name] -[Album_Name]-</li>
+      </ul>
+      <div class="hobby">
+        [Your_Hobby]//趣味を記入.ここのdiv中身をまるごと抜き取るのでここにHTMLソースを書けばその通りに表示されるはず
+      </div>
+      <div class="comment">
+        [Your_Comment]//一言コメント。ここのdiv中身をまるごと抜き取るのでここにHTMLソースを書けばその通りに表示されるはず
+      </div>
+      //-----------------------これ以下省略可能----------------------------------
+      <div class="images">
+        //添付画像。ここに<img>タグで載せたい画像を張り付ける
+        //Example
+        <img src="hoge/fuga/hage.png">
+      </div>
+      <div class="audio">
+        //添付音声。ここに<audio>タグで載せたい音声を張り付ける。
+        //audioタグは必ずconsolsオプションを付け、</audio>で最後閉じること
+        //Example
+        <audio src="./member_introduction/[Your_directory]/[file_name]" controls></audio>
+      </div>
+      <div class="link">
+        //添付外部リンク
+        //[Link_Name]に入れた文字列がリンクボタンに表示されます。
+        <a href="http//www.hoge.fuga/index.html">[Link_Name]</a>
+      </div>
+      //------------------------------------------------------------------------
+    </div>
+  </div>
+</div>

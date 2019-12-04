@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+.news-container > h2{
+  background: #000000;
+  color: #ffffff;
+  border-radius: 10px 10px 0 0;
+  padding: 10px 20px 0;
+  margin: 0 auto 0;
+}
+.news-container > .content{
+  background: #fff;
+  padding: 10px 20px;
+  text-align: justify;
+  height: 300px;
+  overflow: scroll;
+}
+.content > .news{
+  margin: 5px 0;
+  padding: 5px 0 10px;
+  border-bottom: groove 2px #aaaaaa;
+}
+.content > .news > .headline{
+  margin-bottom: 3px;
+  font-weight: bolder;
+}
+.news > p::first-letter{
+  font-size: 150%;
+  color: #46d4cf;
+  font-weight: bold;
+}
+.content > .news > a{
+  position: static;
+  border: #000000 3px solid;
+  color: #000000;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 5px 50px;
+  margin: 10px auto;
+  text-decoration: none;
+}
+.content > .news > a:hover{
+  background-color: #000000;
+  color: #ffffff;
+  transition: background-color 0.5s;
+}
+.news-container > .content > .top-news > .headline::first-letter{
+  color: #19abbf;
+  font-size: 150%;
+}
+#twitter > h2{
+  background: #000000;
+  color: #ffffff;
+  border-radius: 10px 10px 0 0;
+  padding: 10px 20px 0;
+  margin-bottom: 0;
+}

@@ -1,0 +1,202 @@
+@charset "UTF-8";
+
+.content-title{
+  background: #000000;
+  color: #ffffff;
+  border-radius: 10px 10px 0 0;
+}
+.content-title h1{
+  display: inline-block;
+  padding: 0 20px 0;
+}
+.content-title p{
+  display: inline-block;
+  padding: 10px 0 0;
+}
+.game-content-area{
+  background: #ffffff;
+  margin-top: -20px;
+  padding: 30px 40px;
+  height: 1000px;
+  overflow: scroll;
+  text-align: justify;
+}
+.game-content-area > .game-content{
+  display: inline-block;
+  margin: 20px auto;
+}
+.game-content-area > .game-content::after{
+  content: "";
+  width: 100%;
+  height: 0;
+}
+.game-content-area > .game-content > .open_button > img{
+  vertical-align: middle;
+  margin-left: 10px;
+}
+.game-content-area > .game-content img:hover,
+.game-content-area > .game-content img:focus {
+  box-shadow: #707070 3px 3px 5px var(--hover);
+  transform: translateY(-0.25em);
+}
+@media screen and (max-width: 500px) {
+  .game-content-area{
+    padding: 10px 20px;
+    height: 500px;
+  }
+  .content-title h1{
+    display: inline-block;
+    margin: 0 10px -20px;
+    padding: 0;
+  }
+  .content-title p{
+    display: inline-block;
+    margin: 0 10px 20px;
+    padding: 0;
+    font-size: 70%;
+  }
+  .game-content{
+    margin: 5px auto;
+  }
+  .game-content-area > .game-content > .open_button > img{
+    vertical-align: middle;
+    margin-left: 5px;
+  }
+}
+/*ここからポップアップウィンドウの設定*/
+.modal_wrap input{/*判定用のチェックボックスを隠す*/
+  display: none;
+}
+.modal_overlay{/*モーダル表示時の半透明背景の設定。暗くなるやつ*/
+  display: flex;
+  justify-content: center;
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.7);
+  opacity: 0;
+  transition: opacity 0.5s, transform 0s 0.5s;
+  transform: scale(0);
+}
+.modal_trigger{/*オーバーレイを押しても大丈夫なようにする*/
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.modal_content{/*モーダルの中身*/
+  align-self: center;
+  text-align: center;
+  width: 60%;
+  max-width: 800px;
+  padding: 30px 30px 15px;
+  box-sizing: border-box;
+  background: #fff;
+  line-height: 1.4em;
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+.content-explain{
+  margin: 0 auto 20px;
+}
+.content-explain > ul{
+  display: inline-block;
+  text-align: left;
+  margin-right: 10%;
+  vertical-align: middle;
+}
+.content-explain > img{
+  display: inline-block;
+  width: 150px;
+  margin-left: 10%;
+  vertical-align: middle;
+}
+.dl-btn{
+  border: #000000 3px solid;
+  color: #000000;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 10px 50px;
+  text-decoration: none;
+}
+.dl-btn:hover{
+  background-color: #000000;
+  color: #ffffff;
+  transition: background-color 0.5s;
+}
+.close_button{/*閉じるバツボタン*/
+  position: absolute;
+  top: 14px;
+  right: 16px;
+  font-size: 24px;
+  cursor: pointer;
+}
+.modal_wrap input:checked ~ .modal_overlay{
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 0.5s;
+}
+.modal_wrap input:checked ~ .modal_overlay .modal_content{
+  transform: scale(1);
+}
+.open_button img{
+  border: inset 5px #19abbf;
+  border-radius: 15px 0 15px 0;
+  width: 170px;
+  box-shadow: #707070 3px 3px 5px;
+}
+
+@media screen and (max-width: 500px) {
+  .open_button img{
+    width: 70px;
+  }
+  .modal_content{
+    width: 90%;
+    height: auto;
+    line-height: normal;
+    padding: 10px 10px 15px;
+  }
+  .content-explain{
+    margin: 0 0 10px;
+  }
+  .content-explain p{
+    font-size: 30%;
+  }
+  .content-explain > ul{
+    width: 50%;
+    font-size: 50%;
+    margin-right: 3%;
+  }
+  .content-explain > img{
+    width: 90px;
+    margin-left: 3%;
+  }
+  .dl-btn{
+    margin: 10px auto;
+    display: block;
+  }
+}
+/*----And More btn*/
+.game-content-area > .andmore{
+  margin: 20px auto;;
+  text-align: center;
+}
+.andmore-btn{
+  border: #000000 3px solid;
+  color: #000000;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 10px 50px;
+  text-decoration: none;
+  width: 100%;
+}
+.andmore-btn:hover{
+  background-color: #000000;
+  color: #ffffff;
+  transition: background-color 0.5s;
+}

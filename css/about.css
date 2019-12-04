@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+.about-content{
+  position: static;
+  display: block;
+}
+.about-content *{
+  width: 90%;
+}
+.about-content h2{
+  background: #000000;
+  color: #ffffff;
+  border-radius: 10px 10px 0 0;
+  padding: 10px 20px 0;
+  margin: 0 auto 0;
+}
+.about-content p{
+  background: #fff;
+  padding: 10px 20px;
+  margin: 0 auto 10px;
+}
+.content-in{
+  background: #fff;
+  padding: 10px 20px;
+  margin: 0px auto 10px;
+}
+.content-in table{
+  text-align: center;
+  margin: 5px auto;
+  border-collapse: collapse;
+  width: 90%;
+  height: auto;
+  table-layout: fixed;
+}
+.content-in table th, .content-in table td{
+  border: solid 1px #373737;
+}
+.content-in table th, .content-in table td{
+  padding: 5px 20px;
+}
+.map-img{
+  width: 300px;
+  margin: 0 auto;
+}
+.banner{
+  margin: 0 auto;
+}
+.banner img{
+  display: inline-block;
+  width: 170px;
+}
+/*ここからポップアップウィンドウの設定*/
+.modal_wrap input{/*判定用のチェックボックスを隠す*/
+  display: none;
+}
+.modal_overlay{/*モーダル表示時の半透明背景の設定。暗くなるやつ*/
+  display: flex;
+  justify-content: center;
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.7);
+  opacity: 0;
+  transition: opacity 0.5s, transform 0s 0.5s;
+  transform: scale(0);
+}
+.modal_trigger{/*オーバーレイを押しても大丈夫なようにする*/
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.modal_content{/*モーダルの中身*/
+  align-self: center;
+  text-align: center;
+  width: 60%;
+  max-width: 800px;
+  padding: 30px 30px 15px;
+  box-sizing: border-box;
+  background: #fff;
+  line-height: 1.4em;
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+.close_button{/*閉じるバツボタン*/
+  position: absolute;
+  top: 14px;
+  right: 16px;
+  font-size: 24px;
+  cursor: pointer;
+}
+.modal_wrap input:checked ~ .modal_overlay{
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 0.5s;
+}
+.modal_wrap input:checked ~ .modal_overlay .modal_content{
+  transform: scale(1);
+}
+.open_button img{
+  border: inset 5px #19abbf;
+  border-radius: 15px 0 15px 0;
+  width: 170px;
+  box-shadow: #707070 3px 3px 5px;
+}
+@media screen and (max-width: 500px) {
+  .about-content h2{
+    width: 100%;
+    max-width: 100%;
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+  .about-content{
+    width: 100%;
+  }
+  .banner img{
+    width: 30%;
+  }
+}

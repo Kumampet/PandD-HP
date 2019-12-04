@@ -1,0 +1,25 @@
+<!--indexページのゲーム紹介エリアのテンプレートです-->
+
+<div class="game-content">
+  <div class="modal_wrap">
+    <input id="gameXX" type="checkbox">//idのgameXXのXXにはゲーム一つにつき共通の番号を割り振ってください
+    <div class="modal_overlay">
+      <label for="gameXX" class="modal_trigger"></label>//ここも同じくXXに同じ番号を入れてください
+      <div class="modal_content">
+        <label for="gameXX" class="close_button">✖️</label>//ここにもXXに同じ番号を入れてください
+        <h2>[GameAlbum_Title]</h2>//ゲームのアルバム名を入れる
+        <div class="content-explain">
+          <p>[game_introducton]</p>//ゲームの簡単な紹介
+          <ul>
+            <li>[Game_Title_1]</li>
+            <li>[Game_Title_2]</li>
+            <li>[Game_title_3]</li>
+          </ul>//収録ゲームのタイトルを<li>で記述
+          <img class="content-img" src="[File_to_path]">//ゲームジャケットのパスを記述
+        </div>
+        <a class="dl-btn" href="[file_to_path]">Download</a>//ゲームデータのパスを記述
+      </div>
+    </div>
+  </div>
+  <label for="gameXX" class="open_button"><img src="[file_to_path]"></label>//ゲームジャケットのパスを記述
+</div>

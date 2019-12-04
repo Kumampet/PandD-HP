@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+/*ヘッダー*/
+.header_logo{
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+.logo{
+  text-align: center;
+  width: auto;
+}
+.logo img{
+  width: 30%;
+}
+
+/*--本編--*/
+.about-content{
+  position: static;
+  display: block;
+}
+.about-content *{
+  width: 90%;
+}
+.about-content h2{
+  background: #000000;
+  color: #ffffff;
+  border-radius: 10px 10px 0 0;
+  padding: 10px 20px 0;
+  margin: 0 auto 0;
+}
+.about-content .form-back{
+  background: #fff;
+  padding: 10px 20px;
+  margin: 0 auto 10px;
+}
+
+/*-フォーム関連-*/
+/*初期化*/
+input, button, textarea, select {
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+form{
+  text-align: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+form .input-box{
+  display: block;
+  margin: 0 5%;
+}
+form .input-box p{
+  margin: 5px auto;
+  text-align: center;
+}
+form .input-box input{
+  text-align: center;
+  margin: 0 auto;
+}
+form .submit-box{
+  margin: 30px auto;
+  display: block;
+}
+.input-box{
+  width: 90%;
+}
+input[type="text"],
+text {
+  outline: none;
+  border: 1px solid #0002a3;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+input[type="text"]:focus,
+text:focus {
+  box-shadow: 0 0 7px #1abc9c;
+  border: 1px solid #1abc9c;
+}
+.submit-btn {
+  display       : inline-block;
+  font-size     : 18pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 12px 40px;   /* 余白       */
+  background    : #000000;     /* 背景色     */
+  color         : #ffffff;     /* 文字色     */
+  line-height   : 1em;         /* 1行の高さ  */
+  transition    : .3s;         /* なめらか変化 */
+  box-shadow    : 1px 1px 18px #666666;  /* 影の設定 */
+  border        : 2px solid #000000;    /* 枠の指定 */
+}
+.submit-btn:hover {
+  box-shadow    : none;        /* カーソル時の影消去 */
+  color         : #000000;     /* 背景色     */
+  background    : #ffffff;     /* 文字色     */
+}

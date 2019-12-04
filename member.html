@@ -1,0 +1,2896 @@
+<!DOCTYPE html>
+
+<head>
+  <!--Metas-->
+  <meta charset="utf-8">
+  <meta lang="ja">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <!--Title-->
+  <title>企画開発部 Member</title>
+
+  <!--Links-->
+  <link rel="shortcut icon" href="./image/top_s/wakata_ico.png">
+  <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
+  <!--Font-->
+
+
+  <!--CSS-->
+  <link rel="stylesheet" type="text/css" href="./css/layout.css?00">
+  <link rel="stylesheet" type="text/css" href="./css/header.css">
+  <link rel="stylesheet" type="text/css" href="./css/member.css">
+  <link rel="stylesheet" type="text/css" href="./css/footer.css">
+  <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
+
+  <!--Scripts-->
+  <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="./js/member_introduction_modal.js"></script>
+</head>
+
+<body>
+  <div id="layout">
+    <header id="site_header" class="site_header">
+      <div class="header_logo">
+        <div id="nav-drawer">
+          <input id="nav-input" type="checkbox" class="nav-unshown">
+          <label id="nav-open" for="nav-input"><span></span></label>
+          <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+          <div id="nav-content">
+            <nav id="navi-menu-moile" class="menu-mobile">
+              <ul>
+                <li><a href="index.html" id="top">Top</a></li>
+                <li><a href="./about.html" id="about">About</a></li>
+                <li><a href="./news.html" id="news">News</a></li>
+                <li><a href="./member.html" id="member">Member</a></li>
+                <li><a href="./game.html" id="game">Game</a></li>
+                <li><a href="./illust.html" id="illust">Illust</a></li>
+                <li><a href="./study.html" id="study">Study</a></li>
+              </ul>
+            </nav>
+            <label class="return-btn" for="nav-input">
+              <p>←Close</p>
+            </label>
+          </div>
+        </div>
+        <div class="logo">
+          <img class="aniv-logo" src="./image/20th_aniv.png">
+          <a href="index.html"><img class="main-logo" src="./image/logo.png"></a>
+        </div>
+      </div>
+
+      <nav id="navi-menu" class="menu">
+        <ul class="menu_ul">
+          <li class="menu_item"><a href="index.html" id="top">Top</a></li>
+          <li class="menu_item"><a href="./about.html" id="about">About</a></li>
+          <li class="menu_item"><a href="./news.html" id="news">News</a></li>
+          <li class="menu_item"><a href="./member.html" id="member">Member</a></li>
+          <li class="menu_item"><a href="./game.html" id="game">Game</a></li>
+          <li class="menu_item"><a href="./illust.html" id="illust">Illust</a></li>
+          <li class="menu_item"><a href="./study.html" id="study">Study</a></li>
+        </ul>
+      </nav>
+
+    </header>
+
+
+    <div class="about-main">
+      <h2>Member</h2>
+      <div class="content">
+        <div class="outline">
+          <p>
+            企画開発部に所属する部員の一覧です。<br>
+            名前を選択すると自己紹介をご覧いただけます。
+          </p>
+        </div>
+
+        <!--部員紹介モーダウウィンドテンプレ-->
+        <!--付属のJavaScriptにより内容がここに上書きされて表示されます。IDやクラス名は変更しないようにお願いします-->
+        <div id="modal-main">
+          <h1 id="hn">はんどるねーむ</h1>
+          <div class="user-info">
+            <div class="user-info-container">
+              <h3>Job</h3>
+              <p id="job">やくしょく</p>
+              <h3>Join</h3>
+              <div id="join">
+                <!--参加経歴-->
+              </div>
+              <h3>Hobby</h3>
+              <p id="hobby">趣味</p>
+              <h3>Comment</h3>
+              <p id="comment">こめんと</p>
+            </div>
+          </div>
+          <p class="close_btn">Close</p>
+        </div>
+        <!---------------------------------------------------------------------------------------------->
+
+        <!--Programmer-------------------------------------------------------------------------------->
+        <div class="programmer">
+          <h2>Programmer</h2>
+          <div class="members">
+
+            <div id="user">
+              <div class="modal-open" id="pen_nue">
+                <p>
+                  <font size="2">ぺんぬぇ・ざ・さ～ど</font>
+                </p>
+                <div class="info-source" id="pen_nue">
+                  <p class="name">ぺんぬぇ・ざ・さ～ど</p>
+                  <p class="job">Programmer,Graphicer,Sound</p>
+                  <div class="hobby">ゲーム、音楽、絵</div>
+                  <div class="comment">
+                    どうも！ぺんぬぇ・ざ・さ～どでございます！長いのでぺんぬぇとでも呼んでください。目標としてはなんかいい感じのRPG作りたいって感じですかね。<br>
+                    もちろん他のジャンルにも手は出しますが。プログラマーをメインにやっていきたいですがグラフィックやサウンドにも手を出していきたいですねｷﾋﾋ。<br><br>
+                    好きなキャラは東方だとリグルくんに大ちゃん！ランキング作ったら上位１０名のうち1/3が緑髪という（笑）<br>
+                    曲の方はあんまり詳しくないけどルーネイトエルフとか好きですね。<br>
+                    艦これだと電に時雨、榛名かな。アニメや漫画、ゲームなどは浅く広く知ってる感じですので聞き役ぐらいにはなれるかも？......いや、やっぱそんな広くないかも(汗)<br><br>
+                    これから頑張っていきますのでよろしくお願いします！<br><br><br><br><br><br><br>ﾔｻｼｸｼﾃﾈ(ﾎﾞｿｯ
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="mobyuro">
+                <p>もびゅろ</p>
+                <div class="info-source" id="mobyuro">
+                  <p class="name">もびゅろ</p>
+                  <p class="job">Programmer,Graphicer,Planner</p>
+                  <div class="hobby">ゲーム・アニメ・音楽</div>
+                  <div class="comment">
+                    ゲーム制作の経験などはありませんが、プログラマーを中心に活動していきたいと思っています。<br>
+                    今考えてるのは2Dアクションゲームの制作ですが。他にも色々なジャンルのゲームも作っていきたいです。
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="titch">
+                <p>Titch</p>
+                <div class="info-source" id="Titch">
+                  <p class="name">Titch</p>
+                  <p class="job">Programmer</p>
+                  <div class="hobby"></div>
+                  <div class="comment"></div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="aitore">
+                <p>アイトレ</p>
+                <div class="info-source" id="aitore">
+                  <p class="name">アイトレ</p>
+                  <p class="job">Programmer, Graphicer</p>
+                  <ul class="join">
+                    <li>めんこマスター</li>
+                    <li>釣りっこCoolLure</li>
+                    <li>無重力ブロック崩し</li>
+                    <li>SSS</li>
+                    <li>めいどいんぱんどど</li>
+                  </ul>
+                  <div class="hobby">旅、アニメとか映画鑑賞</div>
+                  <div class="comment">おもしろいゲームたくさん作りませう</div>
+                  <div class="link">
+                    <a href="./games/stand_alone/Wata_Sou.zip">アイトレのゲーム</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="ariga">
+                <p>Ariga</p>
+                <div class="info-source" id="Ariga">
+                  <p class="name">Ariga</p>
+                  <p class="job">Programmer</p>
+                  <div class="hobby"></div>
+                  <div class="comment"></div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="egg">
+                <p>エッグ</p>
+                <div class="info-source" id="egg">
+                  <p class="name">エッグ</p>
+                  <p class="job">Programmer</p>
+                  <div class="hobby"></div>
+                  <div class="comment"></div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="kenny">
+                <p>KENnY</p>
+                <div class="info-source" id="kenny">
+                  <p class="name">KENnY</p>
+                  <p class="job">Programmer</p>
+                  <ul class="join">
+                    <li>MEKAFOX -PandD 2017 Summer-</li>
+                    <li>人獣大戦 -PandD 2018 Summer-</li>
+                    <li>シロナと迷路の森(個人製作) -PandD 2018 Autumn-</li>
+                    <li>THE 海底 -PandD 2018 Winter-</li>
+                  </ul>
+                  <div class="hobby">音楽鑑賞(VOCALOID曲など)</div>
+                  <div class="comment">何かを作ることを"楽しい"と思える人間でありたい。</div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="shiftkey">
+                <p>ShiftKey</p>
+                <div class="info-source" id="ShiftKey">
+                  <p class="name">ShiftKey</p>
+                  <p class="job">Programmer, Sound, 百合漫画読専</p>
+                  <ul class="join">
+                    <li>SSS -PandD 2017 Summer-</li>
+                  </ul>
+                  <div class="hobby">読書</div>
+                  <div class="comment">
+                    最近、一迅社百合姫から多くの百合アンソロジー発表、発売されています。一迅社の百合姫は名前の通り百合漫画に特化しています。故に百合漫画作家さんの豊富さにも秀でているわけなのですが、最近アンソロジーが増えている所為か本誌の漫画にてなもり先生の連続掲載、その他単一コンテンツの連続掲載に私自身不安を寄せています。この裏ではほかの作家さんの休載などが原因ではないかと私は疑っているのですが、実際のところ真相は分かっておらず、憶測ながら、作家さんがアンソロジー掲載に走る一方、本誌の掲載漫画を筆の早いベテラン作家さんに頼っているようにも見えるのです。また、2019年5月に発売された「すれ違い巨大感情百合アンソロジー」は内容は兎も角、作家さんの数が少なかったように思います。これについて、おねロリや社会人百合と違って視覚情報によるジャンル区分(見ただけでなんとなくジャンルが分かるもの、作家さんの好みが極端に出てきてしまうもの)ではないにも関わらず作家さんの数が限られてしまっているのは参加する作家さんが単に減っているのではないかと思われます。実際、ほかのアンソロジーにおいても同人からの参加作家さんがいたり(決して同人からの参加を否定しているわけではなく呼ぶならば本誌での掲載を促したりしてほしい)と作家さんの数が足りているとは到底思えないのです。長くなりましたが、私が思うに百合姫はもう少し焦らずにアンソロジーを完成させていく方が良いと思うのです。ジャンルとしての百合は完成されているものの付随する「おりロリ」「社会人」「学生」などの他のジャンルに集まる作家さんの数が減ってきているのはあまり良い傾向ではないと思います。またアンソロジーに感けて本誌での連載を疎かにするのも良くないので月を跨いでも良いのでじっくり構想を練ってより良き百合を完成させていって欲しく思います。(決して今の百合に不満があるわけではないのですが、常に向上心を持ってほしいオタクの発言)
+                  </div>
+                  <div class="link">
+                    <a href="http://yurinavi.com/">百合ナビ</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="hakutou">
+                <p>白桃</p>
+                <div class="info-source" id="hakutou">
+                  <p class="name">白桃</p>
+                  <p class="job">Programmer</p>
+                  <div class="hobby"></div>
+                  <div class="comment"></div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="gotou">
+                <p>後藤</p>
+                <div class="info-source" id="gotou">
+                  <p class="name">後藤</p>
+                  <p class="job">Programmer</p>
+                  <div class="hobby"></div>
+                  <div class="comment"></div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="chonan">
+                <p>長南</p>
+                <div class="info-source" id="chonan">
+                  <p class="name">長南</p>
+                  <p class="job">Programmer</p>
+                  <div class="hobby"></div>
+                  <div class="comment"></div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="chiking">
+                <p>チキング</p>
+                <div class="info-source" id="chiking">
+                  <p class="name">チキング</p>
+                  <p class="job">Programmer,Graphicer</p>
+                  <ul class="join">
+                    <li>AAAA -PandD 2018 summer-</li>
+                  </ul>
+                  <div class="hobby">アニメ</div>
+                  <div class="comment"></div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="ume">
+                <p>うめ</p>
+                <div class="info-source" id="ume">
+                  <p class="name">うめ</p>
+                  <p class="job">Programmer</p>
+                  <div class="hobby"></div>
+                  <div class="comment"></div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="rumaruma">
+                <p>るまるま</p>
+                <div class="info-source" id="rumaruma">
+                  <p class="name">るまるま</p>
+                  <p class="job">Programmer</p>
+                  <ul class="join">
+                    <li>めんこますたー -PandD 2018 WINTER-</li>
+                    <li>サボロー君とトランプ建築 -PandD 2018 AUTUMN-</li>
+                  </ul>
+                  <div class="hobby">ゲーム（デジタルもアナログも！）</div>
+                  <div class="comment">SEKIRO買って死ね</div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="dakko">
+                <p>だっこ</p>
+                <div class="info-source" id="dakko">
+                  <p class="name">だっこ</p>
+                  <p class="job">Programmer</p>
+                  <div class="hobby"></div>
+                  <div class="comment"></div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="pigarna">
+                <p>ピガーナ</p>
+                <div class="info-source" id="pigarna">
+                  <p class="name">ピガーナ</p>
+                  <p class="job">Programmer</p>
+                  <ul class="join">
+                    <li>つりっ子CoolLure -PandD 2018 Summer-</li>
+                    <li>Punch&Dush!! -PandD 2018 WINTER-</li>
+                  </ul>
+                  <div class="hobby">ゲーム, Vtuber, カラオケ</div>
+                  <div class="comment">魂音泉は最強の壁サー</div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="iwakura">
+                <p>Iwakura</p>
+                <div class="info-source" id="iwakura">
+                  <p class="name">Iwakura</p>
+                  <p class="job">Programmer</p>
+                  <div class="hobby"></div>
+                  <div class="comment"></div>
+                </div>
+              </div>
+            </div>
+
+
+            <div id="user">
+              <div class="modal-open" id="chikishi">
+                <p>ちきし</p>
+                <div class="info-source" id="chikishi">
+                  <p class="name">ちきし</p>
+                  <p class="job">Programmer,Graphicer</p>
+                  <ul class="join">
+                    <li>ユーザイアの迷宮,THE海底 -PandD 2018 Winter-</li>
+                    <li>JUEN-PandD2018 Summer-</li>
+                  </ul>
+                  <div class="hobby">3Dゲーム</div>
+                  <div class="comment">ジョンスのコメントは実話なんです！！</div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="ponta">
+                <p>PΘNTA</p>
+                <div class="info-source" id="ponta">
+                  <p class="name">PΘNTA</p>
+                  <p class="job">Programmer,Sound</p>
+                  <ul class="join">
+                  </ul>
+                  <div class="hobby">読書、料理、 なんか作る、などなど…趣味模索中です。</div>
+                  <div class="comment">よろしくお願いしまーす！</div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="snow">
+                <p>スノー</p>
+                <div class="info-source" id="snow">
+                  <p class="name">スノー</p>
+                  <p class="job">Programmer</p>
+                  <ul class="join">
+                  </ul>
+                  <div class="hobby">シャドバ なろうをあさる 麻雀</div>
+                  <div class="comment">全部初心者なんでよろしくお願いしますm(__)m</div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="dragon">
+                <p>どらごん</p>
+                <div class="info-source" id="dragon">
+                  <p class="name">ごらごん</p>
+                  <p class="job">Programmer, Graphicer, Sound</p>
+                  <ul class="join">
+                  </ul>
+                  <div class="hobby">趣味は読書することやPCをいじることなど色々</div>
+                  <div class="comment">いろんなことを経験して楽しみたいです！よろしくお願いします！</div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="popol">
+                <p>popol</p>
+                <div class="info-source" id="popol">
+                  <p class="name">popol</p>
+                  <p class="job">Programmer</p>
+                  <ul class="join">
+                  </ul>
+                  <div class="hobby">ポケモン シャドバ FGO</div>
+                  <div class="comment">がんっばりっますっ!!!!!</div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="gosuchono">
+                <p>ごすちの</p>
+                <div class="info-source" id="gosuchono">
+                  <p class="name">ごすちの</p>
+                  <p class="job">T.B.D</p>
+                  <div class="hobby">
+                    趣味：ゲーム<br>
+                    特技：リコーダー
+                  </div>
+                  <div class="comment">新人です！</div>
+                </div>
+              </div>
+            </div>
+
+
+            <div id="user">
+              <div class="modal-open" id="tomochin">
+                <p>ともちん</p>
+                <div class="info-source" id="tomochin">
+                  <p class="name">ともちん</p>
+                  <p class="job">Programmer, Graphicer, Sound</p>
+                  <div class="hobby">
+                    遊戯王
+                  </div>
+                  <div class="comment">スモスモスモスモスモスモスーモ</div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="saku">
+                <p>さく</p>
+                <div class="info-source" id="saku">
+                  <p class="name">さく</p>
+                  <p class="job">Programmer</p>
+                  <div class="hobby">アニメ鑑賞 ゲーム</div>
+                  <div class="comment"></div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="riku">
+                <p>陸</p>
+                <div class="info-source" id="riku">
+                  <p class="name">陸</p>
+                  <p class="job">Programmer</p>
+                  <div class="hobby">ポケモン</div>
+                  <div class="comment">いろんなことを経験したいです。</div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="yassan">
+                <p>やっさん</p>
+                <div class="info-source" id="yassan">
+                  <p class="name">やっさん</p>
+                  <p class="job">Programmer, Graphicer</p>
+                  <div class="hobby">ゲーム, 漫画, アニメ視聴</div>
+                  <div class="comment">よろしくお願いします！<br>共に面白いゲームを作りましょう！</div>
+                </div>
+              </div>
+            </div>
+            <!--追加ヶ所------>
+          </div>
+        </div>
+        <!--Programmer_end------------------------------------------------------------------------------>
+        <!--Graphicer------------------------------------------------------------------------------------>
+        <div class="graphicker">
+          <h2>Graphicer</h2>
+          <div class="members">
+
+            <div id="user">
+              <div class="modal-open" id="timtim">
+                <p>timtim</p>
+                <div class="info-source" id="timtim">
+                  <p class="name">timtim</p>
+                  <p class="job">Graphicer</p>
+                  <div class="hobby">ポケモン、寝ること</div>
+                  <div class="comment">
+                    東方は宮古芳香と秘封ちゅっちゅ、ＶＯＣＡＬＯＩＤはミクとルカ、けいおん！では律、空の軌跡ではティータが好きです。<br>
+                    最近のアニメには疎いです。最近は葉っぱ隊にあこがれています。
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="nacht">
+                <p>Nacht</p>
+                <div class="info-source" id="nacht">
+                  <p class="name">Nacht</p>
+                  <p class="job">Graphicer</p>
+                  <div class="hobby"></div>
+                  <div class="comment"></div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="wakata">
+                <p>若田笹箕</p>
+                <div class="info-source" id="wakata">
+                  <p class="name">若田笹箕</p>
+                  <p class="job">Graphicer, Programmer, Sound, もはや自分の本職が行方不明</p>
+                  <ul class="join">
+                    <li>Coal-Miner -PandD 2016 Winter</li>
+                    <li>SSS -PandD 2017 Summer</li>
+                    <li>AAAA -PandD 2018 Summer</li>
+                    <li>つりっ子CoolLure -PandD 2018 Summer</li>
+                    <li>反財布組織 -PandD 2018 Winter</li>
+                    <li>MIP 8本 -学祭、PC甲子園展示のみ</li>
+                  </ul>
+                  <div class="hobby">
+                    特技は多分書道ですかね。楷、行、走、隷書なんか書いてました。
+                    <br>
+                    <br>
+                    これといった趣味はありませんが、PCゲーム（Minecraft、ぷよぷよ…etc）したり落書きしたりとまあこんな感じです。
+                    <br>
+                    <br>
+                    中高6年間美術部やってましたが、全く大したことありません(ﾟДﾟ;)
+                  </div>
+                  <div class="comment">
+                    とりあえず今に至るまで結構落書きしてました、はい。今もたまにします。
+                    <br>
+                    <br>
+                    因みに書道は9年くらいやっていました。
+                    <br>
+                    <br>
+                    しばし考え事をして意識が明後日の方向に飛ぶことがありますが、その時はお察しください。
+                    <br>
+                    <br>
+                    あと私影がかなり薄いので、忘れないでください本当にマジでお願いしますはい。
+                    <br>
+                    <br>
+                    （ただ歩いてただけなのに近くにいた小学生やおばさんたちを驚かし、挙句の果てに警察に職質されたことがあります。…何でやああぁぁぁあ！！！）
+                    <br>
+                    <br>
+                    アニメ・ゲームに関して割と疎いです…
+                    <br>
+                    <br>
+                    <style type="text/css">
+                      p.fntl {
+                        font-weight: bolder;
+                        color: #d95d5d;
+                        /*当初の色が背景と同化してしまうので直させていただきました*/
+                        font-size: 20pt;
+                      }
+                    </style>
+                    <p class="fntl">＼(^o^)／こんな私ですがどうかよろしくお願いします＼(^q^)／</p>
+                  </div>
+                  <div class="link">
+                    <a href="https://twitter.com/wakata24s" target="_blank">Twitter</a>
+                    <a href="https://www.pixiv.net/member.php?id=34104482" target="_blank">Pixiv</a>
+                    <a href="http://www.u-aizu.ac.jp" target="_blank">指定〇〇団大学</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="shirohasu">
+                <p>シロハス</p>
+                <div class="info-source" id="shirohasu">
+                  <p class="name">シロハス</p>
+                  <p class="job">Graphicer</p>
+                  <div class="hobby"></div>
+                  <div class="comment"></div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="luku">
+                <p>LUKU</p>
+                <div class="info-source" id="luku">
+                  <p class="name">LUKU</p>
+                  <p class="job">Graphicer</p>
+                  <div class="hobby"></div>
+                  <div class="comment"></div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="sigma">
+                <p>sigma</p>
+                <div class="info-source" id="sigma">
+                  <p class="name">sigma</p>
+                  <p class="job">Graphicer, Programmer</p>
+                  <ul class="join">
+                    <li>トマシュー -PandD 2017 Summer-</li>
+                    <li>JUEN -PandD 2018 Summer-</li>
+                    <li>Punch&Dush!! -PandD 2018 Winter-</li>
+                  </ul>
+                  <div class="hobby">ラブライブ</div>
+                  <div class="comment">1月4日から講義いれた大学ゆるさない</div>
+                  <!--←俺も許さないby制作者Kumampet-->
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="ko-en">
+                <p>紅炎</p>
+                <div class="info-source" id="ko-en">
+                  <p class="name">紅炎</p>
+                  <p class="job">Graphicer</p>
+                  <div class="hobby">ゲーム(音ゲーなど)が好きです。てか皆ゲーム好きだよね。</div>
+                  <ul class="join">
+                    <li>UZIA -PandD 2018 Winter-</li>
+                  </ul>
+                  <div class="comment">なにかコメントと言われると何か言いたくなるけれど何も思い浮かばない…とりあえず、楽しくゲームを作っていきましょう(定型文)</div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="kagami">
+                <p>かがみ</p>
+                <div class="info-source" id="kagami">
+                  <p class="name">かがみ</p>
+                  <p class="job">Graphicer</p>
+                  <div class="hobby"></div>
+                  <div class="comment"></div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="gohan">
+                <p>ゴハン 新米が一番</p>
+                <div class="info-source" id="gohan">
+                  <p class="name">ゴハン 新米が一番</p>
+                  <p class="job">Graphicer</p>
+                  <ul class="join">
+                    <li>つりっ子CoolLure -PandD 2018 Summer-</li>
+                    <li>反財布組織 —PandD 2018 Winter-</li>
+                  </ul>
+                  <div class="hobby">元ラブライバー,ちょっぴりゲーム,炊事,ASMR</div>
+                  <div class="comment">( ´ ▽ ` )</div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="kome">
+                <p>こめ</p>
+                <div class="info-source" id="kome">
+                  <p class="name">こめ</p>
+                  <p class="job">Graphicer</p>
+                  <div class="hobby"></div>
+                  <div class="comment"></div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="Yun">
+                <p>Yun</p>
+                <div class="info-source" id="Yun">
+                  <p class="name">Yun</p>
+                  <p class="job">Graphicer</p>
+                  <div class="hobby"></div>
+                  <div class="comment"></div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="jons">
+                <p>ジョンス</p>
+                <div class="info-source" id="jons">
+                  <p class="name">ジョンス</p>
+                  <p class="job">Graphicer</p>
+                  <ul class="join">
+                    <li>釣りっこクルルァ (PandD 2018 Summer)</li>
+                    <li>THE 海底 (PandD 2018 Winter)</li>
+                  </ul>
+                  <div class="hobby">格ゲー、料理</div>
+                  <div class="comment">ちきしくんは観葉植物は全部作り物だと思ってたそうです。</div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="yasu">
+                <p>やす</p>
+                <div class="info-source" id="yasu">
+                  <p class="name">やす</p>
+                  <p class="job">Graphicer</p>
+                  <ul class="join">
+                    <li>Punch&Dush!! -PandD 2018 WINTER-</li>
+                  </ul>
+                  <div class="hobby">gimmick!</div>
+                  <div class="comment">ぬるぽ、ガッ</div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="mizuki">
+                <p>みずき</p>
+                <div class="info-source" id="mizuki">
+                  <p class="name">みずき</p>
+                  <p class="job">Graphicer</p>
+                  <div class="hobby">アニメ、ラノベ、ノベルゲー、遊戯王</div>
+                  <div class="comment"></div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="p-san">
+                <p>ぷぅさん</p>
+                <div class="info-source" id="p-san">
+                  <p class="name">ぷぅさん</p>
+                  <p class="job">Graphicer, Programmer</p>
+                  <div class="hobby">物語を書くこと 絵を描くこと</div>
+                  <div class="comment"></div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="nero">
+                <p>Nero</p>
+                <div class="info-source" id="Nero">
+                  <p class="name">Nero</p>
+                  <p class="job">Graphicer, Programmer</p>
+                  <div class="hobby">趣味は旅行とツーリング(予定)。特技は歴史や雑学に少し詳しい。あと珈琲が好きで銘柄を50％の確率で当てることができるゾ！</div>
+                  <div class="comment">
+                    東方Projectが好きで、自分もゲームを作ってみたい！ってなりこのサークルに入りました！プログラミングや絵などは初心者ですが一所懸命ついて行きたいです。よろしくお願いします！ちなみに推しはゆゆ様^
+                    ^
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          <div id="user">
+            <div class="modal-open" id="mono">
+              <p>MONO</p>
+              <div class="info-source" id="mono">
+                <p class="name">MONO</p>
+                <p class="job">Graphicer</p>
+                <div class="hobby">ゲーム アニメ鑑賞</div>
+                <div class="comment">今更ですがよろしくお願いします</div>
+              </div>
+            </div>
+          </div>
+          <!--ここに追加する-->
+          </div>
+        </div>
+        <!--Graphicer_end-------------------------------------------------------------------------------->
+        <!--Sound-------------------------------------------------------------------------------------->
+        <div class="sound">
+          <h2>Sound</h2>
+          <div class="members">
+
+            <div id="user">
+              <div class="modal-open" id="kato-">
+                <p>カトー</p>
+                <div class="info-source" id="kato-">
+                  <p class="name">カトー</p>
+                  <p class="job">Sound</p>
+                  <div class="hobby"></div>
+                  <div class="comment"></div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="shinomiya">
+                <p>四ノ宮</p>
+                <div class="info-source" id="shinomiya">
+                  <p class="name">四ノ宮</p>
+                  <p class="job">Sound</p>
+                  <div class="hobby"></div>
+                  <div class="comment"></div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="kumampet">
+                <p>Kumampet</p>
+                <div class="info-source" id="kumampet">
+                  <p class="name">Kumampet</p>
+                  <p class="job">Sound</p>
+                  <ul class="join">
+                    <li>MEKAFOX -PandD 2017 Summer-</li>
+                    <li>無重力ブロック崩し -PandD 2018 Summer&Autumn-</li>
+                    <li>AAAA -PandD 2018 Summer&Autumun-</li>
+                    <li>THE 海底 -PandD 2018 Winter-</li>
+                  </ul>
+                  <div class="hobby">
+                    <p>DTM, Instruments, Computer, Game, Journey, Train, Moto-Bike, etc....</p>
+                  </div>
+                  <div class="comment">
+                    <p>
+                      へっぽこ音屋さん
+                      <br>最近まともに音屋できてないので、どこかのタイミングでちゃんとDTMしたいです。
+                      <br>あと音ゲーをできれば作りたいんですけど、難しいと聞いてて絶望しています。
+                    </p>
+                  </div>
+                  <div class="link">
+                    <a href="https://twitter.com/dtm0707" target="_blank">Twitter</a>
+                    <a href="https://soundcloud.com/kt4nankzfpa8" target="_blank">Soundcloud</a>
+                    <a href="http://www.u-aizu.ac.jp/" target="_blank">University of Aizu</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="deci">
+                <p>Deci</p>
+                <div class="info-source" id="deci">
+                  <p class="name">Deci</p>
+                  <p class="job">Sound, Graphicer</p>
+                  <p class="join_1">人獣大戦 -PandD 2018 Summer-</p>
+                  <p class="join_2">反財布組織 -PandD 2018 Winter-</p>
+                  <div class="hobby">音楽鑑賞,アニメ鑑賞, youtube漁り</div>
+                  <div class="comment">去年より、もっとクオリティを上げていきたい</div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="chiffon">
+                <p>しふぉん</p>
+                <div class="info-source" id="chiffon">
+                  <p class="name">しふぉん</p>
+                  <ul class="join">
+                    <li>サボロー君とトランプ建築 -PandD 2018 Summer-</li>
+                  </ul>
+                  <p class="job">Sound</p>
+                  <div class="hobby">DJ</div>
+                  <div class="link">
+                    <a href="https://www.youtube.com/channel/UCIIk5u5I9YIXk7gBN1xjcfA?view_as=subscriber"
+                      target="_blank">Youtube</a>
+                  </div>
+                  <div class="comment">
+                    Twitter更新頻度高めのごく普通の男子大学生です。<br>
+                    よろしくお願いします。</div>
+                  <!-- Twitter アカウント載せなくていいんですか？？？？ -->
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="kurobura">
+                <p>クロブラ</p>
+                <div class="info-source" id="kurobura">
+                  <p class="name">クロブラ</p>
+                  <p class="job">Sound</p>
+                  <ul class="join">
+                    <li>めんこますたー -PandD 2018 Winter-</li>
+                  </ul>
+                  <div class="hobby">音楽を聴くこと</div>
+                  <div class="comment">空気です</div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="moritaoy">
+                <p>moritaoy</p>
+                <div class="info-source" id="moritaoy">
+                  <p class="name">moritaoy</p>
+                  <p class="job">Sound</p>
+                  <div class="hobby"></div>
+                  <div class="comment"></div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="yashi">
+                <p>やし</p>
+                <div class="info-source" id="yashi">
+                  <p class="name">やし</p>
+                  <p class="job">Sound</p>
+                  <div class="hobby">ゲーム・読書・運動</div>
+                  <div class="comment">がんばります</div>
+                </div>
+              </div>
+            </div>
+            <!--ここに追加する-->
+          </div>
+        </div>
+        <!--sound_end---------------------------------------------------->
+      </div>
+      <!--部員紹介end-------------------------------------------------------->
+
+      <!--OG&OB------------------------------------------------------------------------------------------->
+      <div class="about-ogob">
+        <h2>OG&OB</h2>
+        <div class="content">
+          <div class="outline">
+            <p>
+              企画開発部に在籍していたOB・OGの一覧です。
+              <br> 名前を選択すると自己紹介をご覧いただけます。
+            </p>
+          </div>
+          <!--Programmer-------------------------------------------------------------------------------->
+          <div class="programmer">
+            <h2>Programmer</h2>
+            <div class="members">
+
+              <div id="user">
+                <div class="modal-open" id="faco">
+                  <p>FACO</p>
+                  <div class="info-source" id="faco">
+                    <p class="name">FACO</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="kuroro">
+                  <p>kuroro</p>
+                  <div class="info-source" id="kuroro">
+                    <p class="name">kuroro</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="satoshi">
+                  <p>SATOSHI</p>
+                  <div class="info-source" id="satoshi">
+                    <p class="name">SATOSHI</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="ogino">
+                  <p>オギノ</p>
+                  <div class="info-source" id="ogino">
+                    <p class="name">オギノ</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="kumaneko">
+                  <p>熊猫</p>
+                  <div class="info-source" id="kumaneko">
+                    <p class="name">熊猫</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="pu-re">
+                  <p>ぷーれ</p>
+                  <div class="info-source" id="pu-re">
+                    <p class="name">ぷーれ</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="kumo">
+                  <p>雲</p>
+                  <div class="info-source" id="kumo">
+                    <p class="name">雲</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="asagiri">
+                  <p>朝霧</p>
+                  <div class="info-source" id="asagiri">
+                    <p class="name">朝霧</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="gachapin">
+                  <p>ガチャピン</p>
+                  <div class="info-source" id="gachapin">
+                    <p class="name">ガチャピン</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="red">
+                  <p>red</p>
+                  <div class="info-source" id="red">
+                    <p class="name">red</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="zombie_master">
+                  <p>ゾンビマスター</p>
+                  <div class="info-source" id="zombie_master">
+                    <p class="name">ゾンビマスター</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="14th">
+                  <p>14世</p>
+                  <div class="info-source" id="14th">
+                    <p class="name">14世</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                    <div class="link">
+                      <a href="http://mirasumochi.sakura.ne.jp/" target="_blank"><img
+                          src="./image/member/fourteenth.gif" alt="ミラスモチ"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="gm">
+                  <p>GM(ジム)</p>
+                  <div class="info-source" id="gm">
+                    <p class="name">GM(ジム)</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="shosa">
+                  <p>少佐</p>
+                  <div class="info-source" id="shosa">
+                    <p class="name">少佐</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                    <div class="link">
+                      <a href="http://dsinsdr.run.buttobi.net/" target="_blank"><img src="./image/member/shosa.png"
+                          aly="the living corpse"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="georgia">
+                  <p>ジョージア</p>
+                  <div class="info-source" id="georgia">
+                    <p class="name">ジョージア</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="tamtam">
+                  <p>タムタム</p>
+                  <div class="info-source" id="tamtam">
+                    <p class="name">タムタム</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="todo">
+                  <p>トド</p>
+                  <div class="info-source" id="todo">
+                    <p class="name">トド</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="hata">
+                  <p>秦(はた)</p>
+                  <div class="info-source" id="hata">
+                    <p class="name">秦(はた)</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="yamamossan">
+                  <p>やまもっさん</p>
+                  <div class="info-source" id="yamamossan">
+                    <p class="name">やまもっさん</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                    <div class="link">
+                      <a href="http://facile.sakura.ne.jp/" target="_blank"><img src="./image/member/yamamossan.gif"
+                          alt="Facile!"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="romance">
+                  <p>ロマンス</p>
+                  <div class="info-source" id="romance">
+                    <p class="name">ロマンス</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="j2">
+                  <p>J2</p>
+                  <div class="info-source" id="j2">
+                    <p class="name">J2</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="kamba">
+                  <p>KAMBA</p>
+                  <div class="info-source" id="kamba">
+                    <p class="name">KAMBA</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="ryo-san">
+                  <p>Ryo-San</p>
+                  <div class="info-source" id="ryo-san">
+                    <p class="name">Ryo-San</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                    <div class="link">
+                      <a href="http://ryo-san.sblo.jp/" target="_blank">Ryo's Blog</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="itsuki">
+                  <p>いつき</p>
+                  <div class="info-source" id="itsuki">
+                    <p class="name">いつき</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="captain">
+                  <p>船長(キャプテン)</p>
+                  <div class="info-source" id="captain">
+                    <p class="name">船長(キャプテン)</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="kozikozi">
+                  <p>コジコジ</p>
+                  <div class="info-source" id="kozikozi">
+                    <p class="name">コジコジ</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="gon">
+                  <p>ごn</p>
+                  <div class="info-source" id="gon">
+                    <p class="name">ごn</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="chu">
+                  <p>中</p>
+                  <div class="info-source" id="chu">
+                    <p class="name">中</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="to-fu">
+                  <p>と～ふ</p>
+                  <div class="info-source" id="to-fu">
+                    <p class="name">と～ふ</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                    <div class="link">
+                      <a href="http://www13.plala.or.jp/nyaha/Nyaha/"><img src="./image/member/tofu.png"
+                          alt="Nyaha World"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="haruo">
+                  <p>はるお</p>
+                  <div class="info-source" id="haruo">
+                    <p class="name">はるお</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="mine">
+                  <p>ミネ</p>
+                  <div class="info-source" id="mine">
+                    <p class="name">ミネ</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                    <div class="link">
+                      <a href="http://www.geocities.jp/walla_walla48/" target="_blank">Mine's homepage</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="love">
+                  <p>ラヴ</p>
+                  <div class="info-source" id="love">
+                    <p class="name">ラヴ</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="y2">
+                  <p>わいのにじょう</p>
+                  <div class="info-source" id="y2">
+                    <p class="name">わいのにじょう</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="shicho">
+                  <p>しちょ～</p>
+                  <div class="info-source" id="shicho">
+                    <p class="name">しちょ～</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="jicho">
+                  <p>
+                    <font size="2">じちょう(らき☆すた)</font>
+                  </p>
+                  <div class="info-source" id="jicho">
+                    <p class="name">じちょう(らき☆すた)</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="kusaya">
+                  <p>くさや</p>
+                  <div class="info-source" id="kusaya">
+                    <p class="name">くさや</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="mist">
+                  <p>mist</p>
+                  <div class="info-source" id="mist">
+                    <p class="name">mist</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="wando-">
+                  <p>わんど～</p>
+                  <div class="info-source" id="wando-">
+                    <p class="name">わんど～</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="chu">
+                  <p>中</p>
+                  <div class="info-source" id="chu">
+                    <p class="name">中</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="furasabu">
+                  <p>ふらさぶ</p>
+                  <div class="info-source" id="furasabu">
+                    <p class="name">ふらさぶ</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="jishaku">
+                  <p>磁石</p>
+                  <div class="info-source" id="jishaku">
+                    <p class="name">磁石</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="shuchan">
+                  <p>shuchan</p>
+                  <div class="info-source" id="shuchan">
+                    <p class="name">shuchan</p>
+                    <p class="job">Programmer</p>
+                    <ul class="join">
+                      <li>ゴールをめざせ!!</li>
+                    </ul>
+                    <div class="hobby">
+                      <p>好きなゲーム</p>
+                      <ul>
+                        <li>パワポケ</li>
+                        <li>スマブラforWiiu/3ds</li>
+                        <li>新世界樹の迷宮1、2</li>
+                        <li>ダンガンロンパシリーズ</li>
+                        <li>最近のマイブームはポケモンoras</li>
+                        <li>全年齢対象ゲームが多め</li>
+                      </ul>
+                    </div>
+                    <div class="comment">
+                      院生。<br>
+                      TAやってます。特に１年生は意外と顔を見るかも？
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="honey">
+                  <p>ハニー</p>
+                  <div class="info-source" id="honey">
+                    <p class="name">ハニー</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="nokomaru09">
+                  <p>猫丸09</p>
+                  <div class="info-source" id="nekomaru09">
+                    <p class="name">猫丸09</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="sentence">
+                  <p>sentence</p>
+                  <div class="info-source" id="sentence">
+                    <p class="name">sentence</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby">
+                      趣味は遊戯王です。よかったら<font size="6" color="#ff0099">ＤＵＥＬ</font>しましょう。</font><br>
+                      東方projectが好きです、カラオケでは、よく東方vocalを歌います。
+                    </div>
+                    <div class="comment">
+                      わからないことがあったら気軽に聞いてみてください可能な限り答えます。<br>
+                      会津の気候は、大変だけど頑張っていきましょう。<br>
+                      自己紹介見ていただきありがとうございます。<br>
+                      これから<font size="4" color="#0066cc">よろしくおねがいします</font>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="drapappa">
+                  <p>ドラパッパ</p>
+                  <div class="info-source" id="drapappa">
+                    <p class="name">ドラパッパ</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="rino">
+                  <p>リノ</p>
+                  <div class="info-source" id="rino">
+                    <p class="name">リノ</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby">漫画・アニメ好きです。 ＡＲＩＡ読みましょう！</div>
+                    <div class="comment">
+                      DXライブラリを作ったゲーム作成とUnityを少し触ってます。<br>
+                      就活で忙しくてあまり顔だせないかもしれませんが、見かけたら気軽に声をかけてくれるとうれしいです。
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="gerbera">
+                  <p>がーべら</p>
+                  <div class="info-source" id="gerbera">
+                    <p class="name">がーべら</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby"></div>
+                    <div class="comment">どんどんいろいろなことに積極的に挑戦していきたいです。</div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="syal">
+                  <p>SYAL</p>
+                  <div class="info-source" id="syal">
+                    <p class="name">SYAL</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby"></div>
+                    <div class="comment">色々出来るプログラマーになりたい</div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="karuteru">
+                  <p>カルテル</p>
+                  <div class="info-source" id="karuteru">
+                    <p class="name">カルテル</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby"></div>
+                    <div class="comment">
+                      <b>カルテルですよろしく、R - ★のゲームが大好きです。</b><br>
+                      でも、「あっコイツいかにもグランドセフトオート好きそうだな」ってやつは俺じゃないので気を付けて下さい。
+                      <br>
+                      <br>
+                      自分でやれるとこまでやったなら、あとは適当にやればいい、なんとかなるよ。<br>
+                      じゃあまた。
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <font size="2" color="#ff0000"><b>PS ・・・ R-★はR-18じゃなくてロックスターのことだよ。</b></font>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="obachan">
+                  <p>オバチャン</p>
+                  <div class="info-source" id="obachan">
+                    <p class="name">オバチャン</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby">
+                      遊戯王やヴァンガードなどのカードゲーム、東方原曲や東方vocalを聴くこと<br>
+                      好きな東方曲：運命のダークサイド（東方風神録　二面ボス曲）<br>
+                      好きな東方キャラ：鍵山　雛<br>
+                      お気に入りのデッキ:遊戯王　ドラグニティ、リチュア、カオスドラゴン、ヴァンガード　オラクルシンクタンク
+                    </div>
+                    <div class="comment">あまり頼りにならないと思うけどこれからよろしく</div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="kidiv">
+                  <p>KIdiv</p>
+                  <div class="info-source" id="kidiv">
+                    <p class="name">KIdiv</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby"></div>
+                    <div class="comment">HNは基本的に読みは自由でお願いします。お勧めは「キュウリ」です。</div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="kobatoon">
+                  <p>コバトン</p>
+                  <div class="info-source" id="kobatoon">
+                    <p class="name">コバトン</p>
+                    <p class="job">Programmer,Sound</p>
+                    <div class="hobby">遊戯王、スマブラ、ドラクエなどなど</div>
+                    <div class="comment">
+                      遊戯王（クラウンブレード、AFOP、ネクロス、BF、レッドアイズetc）やってます。暇な方はデュエルしましょう。 <br>
+                      他にはスマブラ、ドラクエ、ゼル伝の話をされると喜びます。 <br>
+                      プログラマーメインですが、「ねんがんの MacBookを てにいれた」ので今年はサウンドにも本格的に挑戦してみるつもりです。
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="lachert">
+                  <p>Lachert</p>
+                  <div class="info-source" id="lachert">
+                    <p class="name">Lachert</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby"></div>
+                    <div class="comment">ハンドルネームって無駄に迷うよね!</div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="yamane">
+                  <p>山音</p>
+                  <div class="info-source" id="yamane">
+                    <p class="name">山音</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="yokotan">
+                  <p>よこたん</p>
+                  <div class="info-source" id="yokotan">
+                    <p class="name">よこたん</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby">趣味はアニメ鑑賞がメインで、時々音ゲー 特技は…とくにないかなw</div>
+                    <div class="comment">
+                      どうも、よこたんです！ アニメ鑑賞を趣味にしているせいなのか、自然と声豚になっていました。 ホントに声優さん神です。<br>
+                      今はとにかく何でもいいのでゲームを作りたいです。 (１回も作ったことないなんて言えない）3Dモデリングにも興味あります。 <br>
+                      こんな私ですが話かけてやってください。べ、別にコミュ障とかじゃないんだからねっ！ お騒がせしました。ごめんなさい。
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="hyoki">
+                  <p>氷鬼</p>
+                  <div class="info-source" id="hyoki">
+                    <p class="name">氷鬼</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby">アニメ鑑賞</div>
+                    <div class="comment">プログラマーだけどプログラム書くのが下手だったり、遅かったり。 今年はちゃんとゲーム作りたいな… （なお、2015/5/15 いつものPCが壊れたもよう）
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="maamuru">
+                  <p>まあむる</p>
+                  <div class="info-source" id="maamuru">
+                    <p class="name">まあむる</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby">ぷよぷよテトリス等パズルゲーム関連 料理 スマブラ等</div>
+                    <div class="comment">
+                      オールラウンダーと言いつつも、単なる器用貧乏。
+                      料理は自炊だけど、普通に買い食いしている人程度に金を使ってる。この頃燻製にはまってる。
+                      ぷよぷよテトリス段位戦、毎週金曜土曜に開催されるのに参加してる。
+                      今はevolveとかやりたい、というかPS4買いたい。5万以上するとか。
+                      まあ、今の最大の楽しみはsplatoon。 小説書いてる。
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="tohoko">
+                  <p>とほこ</p>
+                  <div class="info-source" id="tohoko">
+                    <p class="name">とほこ</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby">
+                      モンハンとかポケモン、ゼル伝…いろいろゲームやってます！<br>
+                      最近はVitaのマインクラフトにハマり中。<br>
+                      アニメ大好きです。これおもしろいよってアニメあれば紹介してください!!<br>
+                      いっしょに楽しくゲーム作りましょう!!
+                    </div>
+                    <div class="comment">
+                      みんなでいろんなゲームをつくっていきましょう。<br>
+                      気軽に話しかけてください('ω')ノ
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="cap">
+                  <p>CAP</p>
+                  <div class="info-source" id="cap">
+                    <p class="name">CAP</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby">ゲーム（ ＾ω＾）</div>
+                    <div class="comment">
+                      DXライブラリとUnityを少々かじってます、もっといろいろできるようになりたい。
+                      <br>
+                      <br>
+                      ジャンル問わずゲームは好きです。
+                      <br>
+                      <br>
+                      RPGのダンジョンで道が分かれてたら、正解のルートより不正解ルートを選びたいやつです(宝箱的な意味で)。
+                      <br>
+                      <br>
+                      モンハンではハンマーで味方を吹っ飛ばすやつです。
+                      <br>
+                      <br>
+                      シューティングゲームは純粋な撃ち合いよりネタプレイが好きなやつです。
+                      <br>
+                      <br>
+                      ホラーは自分でやるより、他の人のプレイやプレイ動画で楽しむやつです。
+                      <br>
+                      <br>
+                      こんなやつですみません（ ＾ω＾）
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="horumi">
+                  <p>ホルミ</p>
+                  <div class="info-source" id="horumi">
+                    <p class="name">ホルミ</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby">アイドルマスター</div>
+                    <div class="comment">
+                      アイマスとプログラミングが好きなプロデューサーです。
+                      <br>担当アイドルは萩原雪歩・高森藍子です。(PaP)
+                      <br>輝きの向こう側へ行く方法を日々探求しています。
+                      <br>
+                      <br>ゲーム制作では主にUnityを使います。DirectXは勉強中です。
+                      <br>頭の中に面白くなさそうな企画がたくさん蠢いています。どんどん形にしていきたいです。
+                      <br>ステルスホラー作りたいです。一緒に作ってくれる人募集してます。
+                      <br>
+                      <br>3Dモデリングに興味があります。(実用レベルではないです)
+                      <br>高森さんのモデルを公式より先に作ることが野望です。
+                      <br>
+                      <br>今年はアイドルマスター10周年です。
+                      <br>プロデューサーのみなさん、10th楽しみましょう!!
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="zero">
+                  <p>ゼロ</p>
+                  <div class="info-source" id="zero">
+                    <p class="name">ゼロ</p>
+                    <p class="job">Programmer,Graphicer</p>
+                    <div class="hobby">
+                      ゲームだけど‥最近やってない‥。ergとかギャルゲとかSRPGとか好き。
+                      <br>Unityいじってます。(できるとはいってない)
+                      <br>あと、運動。
+                    </div>
+                    <div class="comment">
+                      リュックにfripSideとかergとかの缶バッチつけてる人です。まれに痛Tとかきてるかも。
+                      <br>ergやギャルゲはゆずソフト、SAGAPLANETS、Keyとかが好きです。あと、パワポケも。
+                      <br>（天神乱漫の千歳佐奈ちゃんは僕の妹で、嫁なので。）
+                      <br>RPGは軌跡シリーズが好きだったりする。あと、マイナーだけどルミナスアークとか。
+                      <br>
+                      <br>ゲーム制作はUnity使ったりしてます。頑張って使いこなせるようになりたい‥
+                      <br>お絵かきもたまにします。あと、モデリングも頑張っていきたい。
+                      <br>
+                      <br>できることがあんまりなくて、プログラマーとしてもグラフィッカーとしても雑魚だけどよろしく。
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="aq">
+                  <p>A.Q</p>
+                  <div class="info-source" id="aq">
+                    <p class="name">A.Q</p>
+                    <p class="job">Programmer</p>
+                    <div class="hobby">何かに熱中すること</div>
+                    <div class="comment">
+                      興味をもったことなら大体なんでも頑張れます。
+                      DIVAアーケードが家でやりたかったのでアケコン作りました。
+                      Unityも一応いじっています。 影でいつの間にか成長してるような人間を目指して頑張ります。
+                      やりこむなら全力で。
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            <div id="user">
+              <div class="modal-open" id="kagiroi">
+                <p>かぎろい</p>
+                <div class="info-source" id="kagiroi">
+                  <p class="name">かぎろい</p>
+                  <p class="job">Programmer</p>
+                  <div class="hobby">
+                    音ゲー（DDRのDP、他弐寺やギタフリも嗜む程度に）<br>
+                    最近パラレボ激抜けました。足ゴリラ目指して頑張ります。
+                  </div>
+                  <div class="comment">主にDXライブラリで音ゲーとか作ってます。Unityも勉強したい今日この頃。自作コンとかも作ったりします。</div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="knight">
+                <p>KNIGHT</p>
+                <div class="info-source" id="knight">
+                  <p class="name">KNIGHT</p>
+                  <p class="job">Programmer</p>
+                  <div class="hobby"></div>
+                  <div class="comment"></div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="monki-">
+                <p>もんきー</p>
+                <div class="info-source" id="monki-">
+                  <p class="name">もんきー</p>
+                  <p class="job">Programmer</p>
+                  <div class="hobby"></div>
+                  <div class="comment"></div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="oyu">
+                <p>オユ</p>
+                <div class="info-source" id="oyu">
+                  <p class="name">オユ</p>
+                  <p class="job">Programmer</p>
+                  <div class="hobby"></div>
+                  <div class="comment"></div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="vxd">
+                <p>vxd</p>
+                <div class="info-source" id="vxd">
+                  <p class="name">vxd</p>
+                  <p class="job">Programmer</p>
+                  <div class="hobby"></div>
+                  <div class="comment"></div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="kitaro-">
+                <p>キタロー</p>
+                <div class="info-source" id="kitaro-">
+                  <p class="name">キタロー</p>
+                  <p class="job">Programmer</p>
+                  <div class="hobby">コンピュータをいじること</div>
+                  <div class="comment">
+                    キタローです 腕は分かりませんがプログラミング好きです<br>
+                    いろんなジャンルのゲームを作ってみたいです あと、絵を描くのも好きですが人物は描けません… <br>
+                    艦これはショートランド提督で榛名が一番好きです <br>
+                    週に一度、グルーヴコースターをやりにノバに出没します 気軽に話しかけてもらえたら嬉しいです！
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="jack">
+                <p>J@ck</p>
+                <div class="info-source" id="jack">
+                  <p class="name">j@ck</p>
+                  <p class="job">Programmer</p>
+                  <div class="hobby"></div>
+                  <div class="comment"></div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="yu">
+                <p>ゆう</p>
+                <div class="info-source" id="yu">
+                  <p class="name">ゆう</p>
+                  <p class="job">Programmer</p>
+                  <div class="hobby"></div>
+                  <div class="comment"></div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="heyboyP">
+                <p>heyboyP</p>
+                <div class="info-source" id="heybotP">
+                  <p class="name">heyboyP</p>
+                  <p class="job">Programmer</p>
+                  <div class="hobby"></div>
+                  <div class="comment"></div>
+                </div>
+              </div>
+            </div>
+
+              <!--ここに追加する------>
+            </div>
+          </div>
+          <!--Programmer_end------------------------------------------------------------------------------>
+          <!--Graphicer------------------------------------------------------------------------------------>
+          <div class="graphicker">
+            <h2>Graphicer</h2>
+            <div class="members">
+              <div id="user">
+                <div class="modal-open" id="kashiwagi">
+                  <p>柏木</p>
+                  <div class="info-source" id="kashiwagi">
+                    <p class="name">柏木</p>
+                    <p class="job">Graphicer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="shachou">
+                  <p>しゃちょう</p>
+                  <div class="info-source" id="shachou">
+                    <p class="name">しゃちょう</p>
+                    <p class="job">Graphicer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="okimiya">
+                  <p>沖宮</p>
+                  <div class="info-source" id="okimiya">
+                    <p class="name">沖宮</p>
+                    <p class="job">Graphicer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="shironeko">
+                  <p>白猫。</p>
+                  <div class="info-source" id="shironeko">
+                    <p class="name">白猫。</p>
+                    <p class="job">Graphicer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="bussan">
+                  <p>ぶっさん</p>
+                  <div class="info-source" id="bussan">
+                    <p class="name">ぶっさん</p>
+                    <p class="job">Graphicer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="kantoku">
+                  <p>監督</p>
+                  <div class="info-source" id="kantoku">
+                    <p class="name">監督</p>
+                    <p class="job">Graphicer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="issa">
+                  <p>ISSA</p>
+                  <div class="info-source" id="issa">
+                    <p class="name">ISSA</p>
+                    <p class="job">Graphicer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="nikotamu">
+                  <p>にこタム</p>
+                  <div class="info-source" id="nikotamu">
+                    <p class="name">にこタム</p>
+                    <p class="job">Graphicer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="naru">
+                  <p>なる</p>
+                  <div class="info-source" id="naru">
+                    <p class="name">なる</p>
+                    <p class="job">Graphicer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="ninomiya">
+                  <p>にのみや</p>
+                  <div class="info-source" id="ninomiya">
+                    <p class="name">にのみや</p>
+                    <p class="job">Graphicer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="tommy">
+                  <p>TOMMY</p>
+                  <div class="info-source" id="tommy">
+                    <p class="name">TOMMY</p>
+                    <p class="job">Graphicer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="takky">
+                  <p>TAKKY</p>
+                  <div class="info-source" id="TAKKY">
+                    <p class="name">TAKKY</p>
+                    <p class="job">Graphicer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="ai">
+                  <p>あい</p>
+                  <div class="info-source" id="ai">
+                    <p class="name">あい</p>
+                    <p class="job">Graphicer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="fei">
+                  <p>飛(フェイ)</p>
+                  <div class="info-source" id="fei">
+                    <p class="name">飛(フェイ)</p>
+                    <p class="job">Graphicer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="OVa">
+                  <p>OVa</p>
+                  <div class="info-source" id="OVa">
+                    <p class="name">OVa</p>
+                    <p class="job">Graphicer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="um">
+                  <p>um</p>
+                  <div class="info-source" id="um">
+                    <p class="name">um</p>
+                    <p class="job">Graphicer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="takana">
+                  <p>高菜</p>
+                  <div class="info-source" id="takana">
+                    <p class="name">高菜</p>
+                    <p class="job">Graphicer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="desuno">
+                  <p>ですNO</p>
+                  <div class="info-source" id="desuno">
+                    <p class="name">ですNO</p>
+                    <p class="job">Graphicer, Planner, Scenario</p>
+                    <ul class="join">
+                      <li>不思議な夢の海のとばり</li>
+                    </ul>
+                    <div class="hobby">ぱんどどのゲームを配信プレイするぞ！</div>
+                    <div class="comment"></div>
+                    <div class="link">
+                      <a href="http://www.desunoya.sakura.ne.jp/" target="_blank"><img src="./image/member/desuno.jpg"
+                          alt="ですＮＯ家♪"></a>
+                      <a href="https://twitter.com/desuno" target="_blank">Twitter</a>
+                      <a href="https://www.youtube.com/playlist?list=PLJ-6Uhtn5I3vuvdPJdh2vEHQ0S26mX1vg"
+                        target="_blank">Youtube</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="dollar">
+                  <p>$(どる)</p>
+                  <div class="info-source" id="dollar">
+                    <p class="name">$(どる)</p>
+                    <p class="job">Graphicer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                    <div class="link">
+                      <a href="http://ytv.sakura.ne.jp/yc-tv/"><img src="./image/member/doru.gif" alt="YC-TV"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="hiro">
+                  <p>ヒロ</p>
+                  <div class="info-source" id="hiro">
+                    <p class="name">ヒロ</p>
+                    <p class="job">Graphicer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="fukushacho">
+                  <p>ふくしゃちょう</p>
+                  <div class="info-source" id="fukushacho">
+                    <p class="name">ふくしゃちょう</p>
+                    <p class="job">Graphicer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="pure">
+                  <p>PURE(ぷれ)</p>
+                  <div class="info-source" id="pure">
+                    <p class="name">PURE(ぷれ)</p>
+                    <p class="job">Graphicer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="abe">
+                  <p>abe(あべ)</p>
+                  <div class="info-source" id="abe">
+                    <p class="name">abe(あべ)</p>
+                    <p class="job">Graphicer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="louis">
+                  <p>Louis(ルイ)</p>
+                  <div class="info-source" id="louis">
+                    <p class="name">Louis(ルイ)</p>
+                    <p class="job">Graphicer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="kamiyan">
+                  <p>カミヤン</p>
+                  <div class="info-source" id="kamiyan">
+                    <p class="name">飛(フェイ)</p>
+                    <p class="job">Graphicer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="tochio">
+                  <p>TOCHIO</p>
+                  <div class="info-source" id="tochio">
+                    <p class="name">TOCHIO</p>
+                    <p class="job">Graphicer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="pocho">
+                  <p>ぽちょ</p>
+                  <div class="info-source" id="pocho">
+                    <p class="name">ぽちょ</p>
+                    <p class="job">Graphicer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="ryam">
+                  <p>リャム</p>
+                  <div class="info-source" id="ryam">
+                    <p class="name">リャム</p>
+                    <p class="job">Graphicer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="sugar">
+                  <p>シュガー</p>
+                  <div class="info-source" id="sugar">
+                    <p class="name">シュガー</p>
+                    <p class="job">Graphicer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="yukichi">
+                  <p>ユキチ</p>
+                  <div class="info-source" id="yukichi">
+                    <p class="name">ユキチ</p>
+                    <p class="job">Graphicer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="opta">
+                  <p>Opta</p>
+                  <div class="info-source" id="opta">
+                    <p class="name">Opta</p>
+                    <p class="job">Graphicer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="kyousuke">
+                  <p>キョウスケ</p>
+                  <div class="info-source" id="kyousuke">
+                    <p class="name">キョウスケ</p>
+                    <p class="job">Graphicer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="innocent">
+                  <p>innocent</p>
+                  <div class="info-source" id="innocent">
+                    <p class="name">innocent</p>
+                    <p class="job">Graphicer</p>
+                    <div class="hobby"></div>
+                    <div class="comment">妄想をそのまま描くことのできる絵師に私はなりたい</div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="ketarou">
+                  <p>けたろう</p>
+                  <div class="info-source" id="ketarou">
+                    <p class="name">けたろう</p>
+                    <p class="job">Graphicer</p>
+                    <div class="hobby"></div>
+                    <div class="comment">絵うまくなりたいです。日々精進</div>
+                    <div class="link">
+                      <a class="anchor_1"
+                        href="http://pandd.sakura.ne.jp/member-introduction/ketarou/ketarou/ketarou.html">自己紹介</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="haien">
+                  <p>ハイエン</p>
+                  <div class="info-source" id="haien">
+                    <p class="name">ハイエン</p>
+                    <p class="job">Graphicer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="tanama">
+                  <p>たなま</p>
+                  <div class="info-source" id="tanama">
+                    <p class="name">たなま</p>
+                    <p class="job">Graphicer</p>
+                    <div class="hobby">
+                      ちょっとだけノバの民。ちょっとだけ。<br>
+                      ポップン安定42最高46くらいでゆるりと。sdvx銀色雷電してます。<br>
+                      ひなビタは咲子さん派。<br>
+                      プリパラ行こう乙女のパラダイス、今はうれっこアイドル。ガチ勢じゃない<br>
+                      双子かわいいけどやっぱみんなかわいいに落ち着く<br>
+                    </div>
+                    <ul class="join">
+                      <li>KANKITSUだって恋がしたい!!</li>
+                      <li>ロボ子のロボット工場</li>
+                      <li>スイートマスシプラ</li>
+                    </ul>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="oinari">
+                  <p>お稲荷</p>
+                  <div class="info-source" id="oinari">
+                    <p class="name">お稲荷</p>
+                    <p class="job">Graphicer</p>
+                    <div class="hobby"></div>
+                    <div class="comment">よろしくおねがいします。</div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="yasuko">
+                  <p>やす子</p>
+                  <div class="info-source" id="yasuko">
+                    <p class="name">やす子</p>
+                    <p class="job">Graphicer</p>
+                    <div class="hobby"></div>
+                    <div class="comment">アニメや漫画が好きです。よろしくお願いします。</div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="tetora">
+                  <p>テトラ</p>
+                  <div class="info-source" id="tetora">
+                    <p class="name">テトラ</p>
+                    <p class="job">Graphicer</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+            <div id="user">
+              <div class="modal-open" id="mya-">
+                <p>みゃー</p>
+                <div class="info-source" id="miya-">
+                  <p class="name">みゃー</p>
+                  <p class="job">Graphicer</p>
+                  <div class="hobby">読書</div>
+                  <div class="comment">絵を描きたいと思います。</div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="show">
+                <p>Show</p>
+                <div class="info-source" id="show">
+                  <p class="name">Show</p>
+                  <p class="job">Graphicer</p>
+                  <div class="hobby">
+                    アニメ…は最近あんまり観れてないしなぁ……<br>
+                    ゲーム…一番最近やったのは「<ruby>
+                      <rb>横型世界</rb>
+                      <rp>/</rp>
+                      <rt>horizontal story</rt>
+                    </ruby>」ってＳＴＧかなぁ。<br>
+                    <ruby>
+                      <rb>スレンダー</rb>
+                      <rt>ちっぱい</rt>
+                    </ruby>な女の子描くのは趣味って言えるかもしれないッスね！！！<br>
+                    あ、歌うたうのとかも好きです！カラオケいきたい
+                  </div>
+                  <div class="comment">
+                    Ａ「俺はホモだ！」(ホモは嘘つき)<br>
+                    Ａがホモであると仮定すると、Ａは嘘つきである。<br>
+                    しかし、Ａの発言が嘘であればＡはホモではないことになる。<br>
+                    したがって、<u>Ａはホモではない</u>。
+                    <br>
+                    <br>
+                    <b>俺はホモだ！(迫真)</b>
+                    <br>
+                    <br>
+                    と、冗談はさておき。初めまして、Showと申します。<br>
+                    ぱんどど23期、グラフィッカ志望です。<br>
+                    ディジタルでの絵は殆ど未経験なので、これから頑張っていきたいと思います。
+                    <br>
+                    <br>
+                    高校生のころに５人グループで少しゲームを制作しました。<br>
+                    リンクもありますので、参考までに。<br>
+                    このゲームの制作ではキャラのデザイン案をメンバーから募集して描き起こしたり<br>
+                    ネットで拾ってきたものを参考にプログラム書いたりしてました。<br>
+                    いつかばーじょんあっぷさせたい……！
+                    <br>
+                    <br>
+                    ところで、erg作る話してる方々がいるらしいですね……？<br>
+                    いえ別に気になってなんｋ
+                    <!-- あないこともないですけどまぁそれは<br>むねとかおなかとかこつばんとかがこうぶつです。<br>shikolityたかいえちえかけるようになりたいです。</p>
+                    <p>こんな変人だけど皆変人だから問題無かった。よろしくです -->
+                  </div>
+                  <div class="link">
+                    <a href="http://latinum.web.fc2.com/active.html" target="_blank">Shadow Project</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="showno">
+                <p>翔乃</p>
+                <div class="info-source" id="showno">
+                  <p class="name">翔乃</p>
+                  <p class="job">Graphicer,Programmer</p>
+                  <div class="hobby">折り紙、ピアノ</div>
+                  <div class="comment">絵の描き方がよくわからないですが、頑張りたいと思うのでよろしくお願いします</div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="walter">
+                <p>Walter</p>
+                <div class="info-source" id="wakter">
+                  <p class="name">Walter</p>
+                  <p class="job">Graphicer</p>
+                  <div class="hobby"></div>
+                  <div class="comment"></div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="kotatsu">
+                <p>こたつ</p>
+                <div class="info-source" id="kotatsu">
+                  <p class="name">こたつ</p>
+                  <p class="job">Graphicer</p>
+                  <div class="hobby">ゲーム、主に育成とストーリーが重視されてるやつ</div>
+                  <div class="comment">グラフィッカーと書きましたがゲームのシナリオとか書いてみたいです。</div>
+                </div>
+              </div>
+            </div>
+
+              <!--ここに追加する-->
+            </div>
+          </div>
+          <!--Graphicer_end-------------------------------------------------------------------------------->
+          <!--Sound-------------------------------------------------------------------------------------->
+          <div class="sound">
+            <h2>Sound</h2>
+            <div class="members">
+              <!--ここに追加する-->
+              <div id="user">
+                <div class="modal-open" id="dist">
+                  <p>でぃすと</p>
+                  <div class="info-source" id="dist">
+                    <p class="name">でぃすと</p>
+                    <p class="job">Sound</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="leus-rw">
+                  <p>Leus-RW(レウス)</p>
+                  <div class="info-source" id="leus-rw">
+                    <p class="name">Leus-RW</p>
+                    <p class="job">Sound</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="nosuke">
+                  <p>ノスケ</p>
+                  <div class="info-source" id="nosuke">
+                    <p class="name">ノスケ</p>
+                    <p class="job">Sound</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                    <div class="link">
+                      <a href="http://noske.iaigiri.com/" target="_blank">制作の宿・タンブルウィード</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="meijin">
+                  <p>名人</p>
+                  <div class="info-source" id="meijin">
+                    <p class="name">名人</p>
+                    <p class="job">Sound</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="hatacchi">
+                  <p>ハタっち</p>
+                  <div class="info-source" id="hatacchi">
+                    <p class="name">ハタっち</p>
+                    <p class="job">Sound</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="igurocchi">
+                  <p>いぐろっち</p>
+                  <div class="info-source" id="igurocchi">
+                    <p class="name">いぐろっち</p>
+                    <p class="job">Sound</p>
+                    <div class="hobby"></div>
+                    <div class="comment">様々なジャンルのサウンドを作れるように 頑張ります！！</div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="kero">
+                  <p>kero</p>
+                  <div class="info-source" id="kero">
+                    <p class="name">kero</p>
+                    <p class="job">Sound</p>
+                    <div class="hobby"></div>
+                    <div class="comment">
+                      いろいろと申し訳ないですが自分色に染めろと言われたので<br>
+                      初めてでどこまでいけるか頑張りたいと思いますので<br>
+                      みなさんどうぞよろしくお願いしまーす！ <br>
+                      ノバでの出現率高いんで見かけたら声かけてくれると嬉しいかなーって
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <div id="user">
+              <div class="modal-open" id="megayun">
+                <p>めがゆん</p>
+                <div class="info-source" id="megayun">
+                  <p class="name">めがゆん</p>
+                  <p class="job">Sound</p>
+                  <div class="hobby">
+                    漫画　…　ほのぼの日常系非日常モノ（日常とか）、久米田康治作品、ジョジョ（七部途中）、ハイスコアガールを読み進めようかな～、といったところか？
+                    <br>アニメ…　観ないんですね～、これが。ラノベ、漫画原作だとどうしてもそっち先に読まないと気が済まないタイプでして…　あ、ファーストガンダムとSteins;Gate（後述）とトップをねらえ！はしっかり観ました。
+                    <br>ゲーム…　東方project（の世界観や演出）、Steins;Gate、あとはレトロゲームのプレイを見るくらいで最近はやろうと思うモノがあまりないです…　全体的に下手の横好きってやつですね
+                    <br>音楽　…　吹奏楽から入ってるので割とアナログなジャンルが好きだったりします。今はジャンルに囚われない曲作りのため勉強中です。
+                  </div>
+                  <div class="comment">
+                    見習いコンポーザー。HNの由来は尊敬するゲームミュージッククリエイターとゲームクリエイターから。<br>
+                    えーと、めがゆんです。初対面なら誰にでも敬語を使ってしまう癖があるので、なるべく固くてとっつきにくい印象を与えないよう、頑張ります！<s>そこからかよ</s>
+                    <br>ゲームに限ったことではないですが、やはり良いものは良い環境から生まれるものだと思うので、上手く雰囲気も作れたらいいなって感じですね
+                    <br>
+                    <br>
+                    <br>サウンドのお仕事もしています。質問は答えられる範囲で答えるのでどしどしどうぞ！（音楽理論は独学なので教えられるか微妙なラインですが）
+                    <br>申し訳ありませんがサウンド専門でゲームのプログラミング自体には疎いので他を当たって下さい…orz
+                    <br>
+                    <br>
+                    <br>まだまだ至らないことだらけですが、よろしくお願いします！
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="herium">
+                <p>ヘリウム</p>
+                <div class="info-source" id="herium">
+                  <p class="name">ヘリウム</p>
+                  <p class="job">Sound</p>
+                  <div class="hobby">
+                    ゲーム、最近は東方と艦こればっかですけど<br>
+                    あ、FEifが楽しみでなりません
+                  </div>
+                  <div class="comment">
+                    ハンネをくうきからヘリウムに移行させています<br><br>
+                    部室に住んでる。 多分部室が開いてる時はだいたい私が居るかもしれません<br>
+                    とてもヲタヲタしい風貌ですがアニメは見ないのでアニメ談義はできませんが、東方談義なら飛びつきます<br>
+                    †百合は文化†
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="hiroro">
+                <p>ヒロロ</p>
+                <div class="info-source" id="hiroro">
+                  <p class="name">ヒロロ</p>
+                  <p class="job">Sound</p>
+                  <div class="hobby"></div>
+                  <div class="comment"></div>
+                </div>
+              </div>
+            </div>
+
+            <div id="user">
+              <div class="modal-open" id="jiro">
+                <p>次郎</p>
+                <div class="info-source" id="jiro">
+                  <p class="name">次郎</p>
+                  <p class="job">Sound</p>
+                  <div class="hobby"></div>
+                  <div class="comment"></div>
+                </div>
+              </div>
+            </div>
+
+            </div>
+          </div>
+          <!--sound_end---------------------------------------------------->
+          <!--scenario-->
+          <div class="scenario">
+            <h2>Scenario</h2>
+            <div class="members">
+              <!--ここに追加する-->
+              <div id="user">
+                <div class="modal-open" id="kotorin">
+                  <p>殊燐(ことりん)</p>
+                  <div class="info-source" id="kotorin">
+                    <p class="name">殊燐</p>
+                    <p class="job">Scenario</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="jin">
+                  <p>ジン</p>
+                  <div class="info-source" id="jin">
+                    <p class="name">ジン</p>
+                    <p class="job">Scenario</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="wanko">
+                  <p>わんこと梟</p>
+                  <div class="info-source" id="wanko">
+                    <p class="name">わんこと梟</p>
+                    <p class="job">Scenario</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="nobu">
+                  <p>ノブ</p>
+                  <div class="info-source" id="nobu">
+                    <p class="name">ノブ</p>
+                    <p class="job">Scenario</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="usami">
+                  <p>兎沙弥</p>
+                  <div class="info-source" id="usami">
+                    <p class="name">兎沙弥</p>
+                    <p class="job">Scenario</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <!--scenario end-->
+          <!--Planner-->
+          <div class="planner">
+            <h2>Planner</h2>
+            <div class="members">
+              <!--ここに追加する-->
+              <div id="user">
+                <div class="modal-open" id="tayutamu">
+                  <p>タユタム</p>
+                  <div class="info-source" id="tayutamu">
+                    <p class="name">タユタム</p>
+                    <p class="job">Planner</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="kyon">
+                  <p>キョン</p>
+                  <div class="info-source" id="kyon">
+                    <p class="name">キョン</p>
+                    <p class="job">Planner</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="teijun">
+                  <p>ていじゅん</p>
+                  <div class="info-source" id="teijun">
+                    <p class="name">ていじゅん</p>
+                    <p class="job">Planner</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="gussan">
+                  <p>ぐっさん</p>
+                  <div class="info-source" id="gussan">
+                    <p class="name">ぐっさん</p>
+                    <p class="job">Planner</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="user">
+                <div class="modal-open" id="sittara">
+                  <p>しったら</p>
+                  <div class="info-source" id="sittara">
+                    <p class="name">しったら</p>
+                    <p class="job">Planner</p>
+                    <div class="hobby"></div>
+                    <div class="comment"></div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <!--Planner end-->
+        </div>
+      </div>
+      <!--部員紹介end-------------------------------------------------------->
+      <!--OG&OB_end--------------------------------------------------------------------------------------->
+
+
+      <footer>
+        <div class="warning">Copyright : 企画開発部 PandD</div>
+        <div class="warning">当サイト上のバナーを除くあらゆるデータの無断複製、無断転載を禁止します</div>
+      </footer>
+
+    </div>
+
+</body>
+
+</html>

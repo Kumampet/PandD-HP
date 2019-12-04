@@ -1,0 +1,123 @@
+@charset "utf-8";
+
+/*  ゲーム  */
+.content{
+  background: #ffffff;
+  border-radius: 0px 0px 10px 10px;
+  margin: 0 10% 5px;
+  padding: 10px;
+}
+h2{
+  text-align: left;
+  background: #000000;
+  color: #ffffff;
+  border-radius: 10px 10px 0 0;
+  padding: 10px 20px 0px;
+  margin: 0 10% 0;
+}
+@media screen and (max-width:900px) {
+  .content{
+    width: 100%;
+    margin:0;
+  }
+  h2{
+    text-align: left;
+    background: #000000;
+    color: #ffffff;
+    border-radius: 10px 10px 0 0;
+    padding: 10px 0 0 20px;
+    margin: 0;
+    width: 100%;
+  }
+}
+.about-main > .content{
+  text-align: center;
+}
+.game {
+  border-bottom: 1px dotted;
+  padding: 1em 0em 1em;
+  margin: 0 auto;
+  display: block;
+}
+.game h3{
+  margin: 0;                 /* デフォルトCSS打ち消し */
+  position: relative;        /* 位置調整 */
+  font-weight: normal;       /* 文字の太さ調整 */
+  background-color: #000;    /* 背景色指定 */
+  color: #fff;               /* 文字色指定 */
+  padding: 10px 0 10px 30px;  /* 余白指定 */
+  margin-bottom: 20px;       /* 周りの余白指定 */
+}
+.game h3:before {
+  content: '';                /* 空の要素を作る */
+  height: 110%;               /* 高さ指定 */
+  width: 3px;                 /* 幅指定 */
+  display:  block;            /* ブロック要素にする */
+  position:  absolute;        /* 位置調整 */
+  left: 14px;                 /* 位置調整 */
+  top: -3px;                  /* 位置調整 */
+  margin:  auto;              /* 位置調整 */
+  background-color:  #fff;    /* 背景色指定 */
+  transform: rotate(3deg);    /* 回転 */
+}
+.game h3:after {
+  content: '';                /* 空の要素を作る */
+  height: 116%;               /* 高さ指定 */
+  width: 3px;                 /* 幅指定 */
+  display:  block;            /* ブロック要素にする */
+  position:  absolute;        /* 位置調整 */
+  left: 14px;                 /* 位置調整 */
+  top: -6px;                  /* 位置調整 */
+  margin:  auto;              /* 位置調整 */
+  background-color:  #fff;    /* 背景色指定 */
+  transform: rotate(-15deg);  /* 回転 */
+}
+.game .text {
+  display: inline-block;
+  table-layout: fixed;
+  vertical-align: middle;
+  max-width: none;
+}
+.game > .text > ul{
+  list-style: none;
+  padding: 0;
+}
+.info {
+  text-align: left;
+  display: table;
+  table-layout: fixed;
+  padding: .2em 0;
+}
+.game .text .link {
+  color: #2743d2;
+  display: table-cell;
+  font-size: 130%;
+  font-weight: 150%;
+}
+.game .thumbnail {
+  border: none;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: right;
+  vertical-align: middle;
+  box-shadow: 5px 5px 3px #454545;
+}
+.comment {
+  margin: 2em;
+}
+.dl-btn{
+  border: #000000 3px solid;
+  color: #000000;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px auto;
+  text-decoration: none;
+  display: block;
+  width: 300px;
+}
+.dl-btn:hover{
+  background-color: #000000;
+  color: #ffffff;
+  transition: background-color 0.5s;
+}

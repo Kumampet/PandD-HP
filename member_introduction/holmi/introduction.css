@@ -1,0 +1,11 @@
+body {
+    background-position: center center;
+    /* background-repeat: no-repeat; */
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #d3e5e5;
+    max-height: 100%;
+    color: #537230;
+    -webkit-text-size-adjust: 100%;
+}
+

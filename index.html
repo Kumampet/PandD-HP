@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<head>
+  <!--Metas-->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132351620-1"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-132351620-1');
+</script>
+
+<meta charset="utf-8">
+<meta lang="ja">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<!--Title-->
+<title>企画開発部 PandD</title>
+
+<!--Links-->
+<link rel="shortcut icon" href="./image/top_s/wakata_ico.png">
+<link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet"><!--Font-->
+
+
+<!--CSS-->
+<link rel="stylesheet" type="text/css" href="./css/layout.css?03">
+<link rel="stylesheet" type="text/css" href="./css/header.css">
+<link rel="stylesheet" type="text/css" href="./css/top-image-slide.css">
+<link rel="stylesheet" type="text/css" href="./css/update.css">
+<link rel="stylesheet" type="text/css" href="./slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="./slick/slick-theme.css"/>
+<link rel="stylesheet" type="text/css" href="./css/left-container.css">
+<link rel="stylesheet" type="text/css" href="./css/right-container.css">
+<link rel="stylesheet" type="text/css" href="./css/footer.css">
+
+<!--Scripts-->
+<script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="./slick/slick.min.js"></script>
+<script type="text/javascript" src="./js/slick.js"></script>
+<script type="text/javascript" src="./js/top-image-slide.js"></script>
+<script type="text/javascript" src="./js/update_date_search_and_adapter.js"></script>
+<script type="text/javascript" src="./js/auto_load_news.js"></script>
+
+</head>
+<!--headerのs参考文献＊https://webdesignday.jp/inspiration/technique/css/4166/-->
+<body>
+  <div id="layout">
+    <div class="group1">
+      <header id="site_header" class="site_header">
+        <div class="header_logo">
+          <div id="nav-drawer">
+            <input id="nav-input" type="checkbox" class="nav-unshown">
+            <label id="nav-open" for="nav-input"><span></span></label>
+            <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+            <div id="nav-content">
+              <nav id="navi-menu-moile" class="menu-mobile">
+                <ul>
+                  <li><a href="index.html" id="top">Top</a></li>
+                  <li><a href="./about.html" id="about">About</a></li>
+                  <li><a href="./news.html" id="news">News</a></li>
+                  <li><a href="./member.html" id="member">Member</a></li>
+                  <li><a href="./game.html" id="game">Game</a></li>
+                  <li><a href="./illust.html" id="illust">Illust</a></li>
+                  <li><a href="./study.html" id="study">Study</a></li>
+                </ul>
+              </nav>
+              <label class="return-btn" for="nav-input"><p>←Close</p></label>
+            </div>
+          </div>
+          <div class="logo">
+            <img class="aniv-logo" src="./image/20th_aniv.png">
+            <a href="index.html"><img class="main-logo" src="./image/logo.png"></a>
+          </div>
+        </div>
+
+        <nav id="navi-menu" class="menu">
+          <ul class="menu_ul">
+            <li class="menu_item"><a href="index.html" id="top">Top</a></li>
+            <li class="menu_item"><a href="./about.html" id="about">About</a></li>
+            <li class="menu_item"><a href="./news.html" id="news">News</a></li>
+            <li class="menu_item"><a href="./member.html" id="member">Member</a></li>
+            <li class="menu_item"><a href="./game.html" id="game">Game</a></li>
+            <li class="menu_item"><a href="./illust.html" id="illust">Illust</a></li>
+            <li class="menu_item"><a href="./study.html" id="study">Study</a></li>
+          </ul>
+        </nav>
+
+      </header>
+    </div>
+
+    <!--ヘッダーやメニューを除いた部分。つまりメインコンテンツ-->
+    <div class="main">
+      <!--Top Image Slide-->
+      <div id="top-image-slide" class="container">
+        <div class="single-item">
+          <!--ここの直下に追加してください-->
+          <div class="item">
+            <img alt="wakata" src="./image/top/top-banner/wakata_top.png">
+          </div>
+          <div class="item">
+            <img alt="nacht" src="./image/top/top-banner/Nacht_top2.png">
+          </div>
+          <div class="item">
+            <img alt="oyu" src="./image/top/top-banner/oyu_top_pandd.jpg">
+          </div>
+          <div class="item">
+            <img alt="mya" src="./image/top/top-banner/mya_top1.jpg">
+          </div>
+          <div class="item">
+            <img alt="top" src="./image/top/top-banner/top.jpg">
+          </div>
+          <div class="item">
+            <img alt="aq" src="./image/top/top-banner/AQTOP2.jpg">
+          </div>
+          <div class="item">
+            <img alt="zero" src="./image/top/top-banner/PandDtop_zero.jpg">
+          </div>
+          <div class="item">
+            <img alt="top43" src="./image/top/top-banner/top43.jpg">
+          </div>
+          <div class="item">
+            <img alt="top42" src="./image/top/top-banner/top42.jpg">
+          </div>
+        </div>
+      </div>
+
+      <!-- Update date 更新日時は自動で書き換わりますので手動で更新する必要はございません-->
+      <h2 class="update">Last update - yyyy / mm / dd</h2>
+
+
+      <!--テスト実装用警告-->
+      <!--<h2>!現在β版を実装中です!</h2>
+      <!-------->
+
+      <div id="left-container">
+        <!--Main Contents-->
+        <div class="content-title">
+          <h1>CONTENTS</h1>
+          <p>サムネイルをクリックで詳細を表示します</p>
+        </div>
+        <div class="game-content-area">
+          <!--ここに追加する-->
+
+          <div class="game-content">
+            <div class="modal_wrap">
+              <input id="game33" type="checkbox">
+              <div class="modal_overlay">
+                <label for="game33" class="modal_trigger"></label>
+                <div class="modal_content">
+                  <label for="game33" class="close_button">✖️</label>
+                  <h2>PandD2019Summer</h2>
+                  <div class="content-explain">
+                    <p>コミックマーケットC96にて頒布したゲームの詰め合わせCDです</p>
+                    <ul>
+	              <li>夢見るトレジャーハンター</li>
+        	      <li>バーガーキング</li>
+		      <li>KemoVania</li>
+       		      <li>ラーメンおじさんとゴキブリちゃん</li>
+                      <li>ミサイルP(試遊版)</li>
+		      <li>+α</li>
+                    </ul>
+                    <img class="content-img" src="./image/game/PandD2019Summer.png">
+                  </div>
+                  <a class="dl-btn" href="./games/comiket/PandD2019Summer.zip">Download</a>
+                </div>
+              </div>
+            </div>
+            <label for="game33" class="open_button"><img src="./image/game/PandD2019Summer.png"></label>
+          </div>
+
+
+          <div class="game-content">
+            <div class="modal_wrap">
+              <input id="game33" type="checkbox">
+              <div class="modal_overlay">
+                <label for="game33" class="modal_trigger"></label>
+                <div class="modal_content">
+                  <label for="game33" class="close_button">✖️</label>
+                  <h2>PandD2018Winter</h2>
+                  <div class="content-explain">
+                    <p>コミックマーケットC95にて頒布したゲームの詰め合わせCDです</p>
+                    <ul>
+                      <li>Punch&Dush!!</li>
+                      <li>THE 海底</li>
+                      <li>反財布組織</li>
+                      <li>めんこますたー</li>
+                      <li>ユーザイアの迷宮</li>
+                    </ul>
+                    <img class="content-img" src="./image/game/PandD2018Winter.png">
+                  </div>
+                  <a class="dl-btn" href="./games/comiket/PandD2018Winter.zip">Download</a>
+                </div>
+              </div>
+            </div>
+            <label for="game33" class="open_button"><img src="./image/game/PandD2018Winter.png"></label>
+          </div>
+
+          <div class="game-content">
+            <div class="modal_wrap">
+              <input id="game32" type="checkbox">
+              <div class="modal_overlay">
+                <label for="game32" class="modal_trigger"></label>
+                <div class="modal_content">
+                  <label for="game32" class="close_button">✖️</label>
+                  <h2>PandD2018Autumn</h2>
+                  <div class="content-explain">
+                    <p>蒼翔祭2018にて無料配布したゲームの詰め合わせCDです</p>
+                    <ul>
+                      <li>AAAA</li>
+                      <li>JUEN</li>
+                      <li>サボロー君とトランプ建築</li>
+                      <li>人獣大戦</li>
+                      <li>つりっ子CoolLure</li>
+                      <li>無重力ブロック崩し</li>
+                      <li>終わらない塔を上って</li>
+                      <li>シロナと迷路の森</li>
+                    </ul>
+                    <img class="content-img" src="./image/game/PandD2018Autumn.png">
+                  </div>
+                  <a class="dl-btn" href="./games/gakusai/PandD2018Autumn.zip">Download</a>
+                </div>
+              </div>
+            </div>
+            <label for="game32" class="open_button"><img src="./image/game/PandD2018Autumn.png"></label>
+          </div>
+
+          <div class="game-content">
+            <div class="modal_wrap">
+              <input id="game31" type="checkbox">
+              <div class="modal_overlay">
+                <label for="game31" class="modal_trigger"></label>
+                <div class="modal_content">
+                  <label for="game31" class="close_button">✖️</label>
+                  <h2>PandD2018Summer</h2>
+                  <div class="content-explain">
+                    <p>コミックマーケット94にて無料配布したゲームの詰め合わせCDです</p>
+                    <ul>
+                      <li>AAAA</li>
+                      <li>JUEN*</li>
+                      <li>サボロー君とトランプ建築</li>
+                      <li>人獣大戦</li>
+                      <li>つりっ子CoolLure</li>
+                      <li>無重力ブロック崩し</li>
+                      <li>終わらない塔を上って</li>
+                    </ul>
+                    <img class="content-img" src="./image/game/PandD2018Summer.png">
+                    <p>
+                      ※コミックマーケットにて配布していたCD内のデータに不備がありました。このサイトで公開しているものは修正済ですので、新規の方は上記リンクよりダウンロードしてください。
+                      旧版をお持ちの方はお手数ですが下記リンクより修正版単体をダウンロードして差し替えてください。
+                      ご迷惑をお掛けして申し訳ありませんが、よろしくお願い致します。
+                    </p>
+                  </div>
+                  <a class="dl-btn" href="./games/comiket/PandD2018Summer.zip">Download</a>
+                  <a class="dl-btn" href="./games/mod/juen.zip">修正パッチ</a>
+                </div>
+              </div>
+            </div>
+            <label for="game31" class="open_button"><img src="./image/game/PandD2018Summer.png"></label>
+          </div>
+
+          <div class="game-content"><!--CONTENTSの始まり-->
+            <div class="modal_wrap">
+              <input id="game30" type="checkbox">
+              <div class="modal_overlay">
+                <label for="game30" class="modal_trigger"></label>
+                <div class="modal_content">
+                  <label for="game30" class="close_button">✖️</label>
+                  <h2>PandD 2017 Summer</h2>
+                  <div class="content-explain">
+                    <p>コミックマーケット92にて無料配布したゲームの詰め合わせCDです</p>
+                    <ul>
+                      <li>人狼_OyusProject</li>
+                      <li>SSS</li>
+                      <li>スライムハンターLL</li>
+                      <li>トマシュー</li>
+                      <li>MEKAFOX</li>
+                    </ul>
+                    <img class="content-img" src="./image/game/PandD2017Summer_s.png">
+                  </div>
+                  <a class="dl-btn" href="./games/comiket/PandD2017Summer.zip">Download</a>
+                </div>
+              </div>
+            </div>
+            <label for="game30" class="open_button"><img src="./image/game/PandD2017Summer_s.png"></label>
+          </div><!--CONTENTSの終わり-->
+
+          <div class="game-content"><!--CONTENTSの始まり-->
+            <div class="modal_wrap">
+              <input id="game29" type="checkbox">
+              <div class="modal_overlay">
+                <label for="game29" class="modal_trigger"></label>
+                <div class="modal_content">
+                  <label for="game29" class="close_button">✖️</label>
+                  <h2>PandD 2016 Winter</h2>
+                  <div class="content-explain">
+                    <p>コミックマーケット91にて無料配布したゲームの詰め合わせCDです</p>
+                    <ul>
+                      <li>Small Legend</li>
+                      <li>Roomva10 体験版</li>
+                      <li>イチ流!!</li>
+                      <li>Tri-Uni</li>
+                      <li>Coal-Miner</li>
+                      <li>Infinite Slime</li>
+                      <li>こむぶー、お届け！</li>
+                      <li>車無双</li>
+                      <li>TDN-STG</li>
+                    </ul>
+                    <img class="content-img" src="./image/game/PandD2016Winter_s.png">
+                  </div>
+                  <a class="dl-btn" href="./games/comiket/PandD2016Winter.zip">Download</a>
+                </div>
+              </div>
+            </div>
+            <label for="game29" class="open_button"><img src="./image/game/PandD2016Winter_s.png"></label>
+          </div><!--CONTENTSの終わり-->
+
+          <div class="game-content"><!--CONTENTSの始まり-->
+            <div class="modal_wrap">
+              <input id="game28" type="checkbox">
+              <div class="modal_overlay">
+                <label for="game28" class="modal_trigger"></label>
+                <div class="modal_content">
+                  <label for="game28" class="close_button">✖️</label>
+                  <h2>PandD 2016 Autumn</h2>
+                  <div class="content-explain">
+                    <p>蒼翔祭2016にて無料配布したゲームの詰め合わせCDです</p>
+                    <ul>
+                      <li>Roomva10(体験版）</li>
+                      <li>Deadly Chamber</li>
+                      <li>イチ流!!</li>
+                      <li>Tri-Uni</li>
+                      <li>こむぶー、お届け!</li>
+                      <li>Small Legend</li>
+                    </ul>
+                    <img class="content-img" src="./image/game/PandD2016Autumn.png">
+                  </div>
+                  <a class="dl-btn" href="./games/gakusai/PandD2016Autumn.zip">Download</a>
+                </div>
+              </div>
+            </div>
+            <label for="game28" class="open_button"><img src="./image/game/PandD2016Autumn.png"></label>
+          </div><!--CONTENTSの終わり-->
+
+          <div class="game-content"><!--CONTENTSの始まり-->
+            <div class="modal_wrap">
+              <input id="game27" type="checkbox">
+              <div class="modal_overlay">
+                <label for="game27" class="modal_trigger"></label>
+                <div class="modal_content">
+                  <label for="game27" class="close_button">✖️</label>
+                  <h2>PandD 2016 SUMMER</h2>
+                  <div class="content-explain">
+                    <p>コミックマーケット90にて無料配布したゲームの詰め合わせCDです</p>
+                    <ul>
+                      <li>Roomva</li>
+                      <li>The Kinetic Gear - trial-</li>
+                      <li>イチ流!!</li>
+                    </ul>
+                    <img class="content-img" src="./image/game/PandDSummer2016.png">
+                  </div>
+                  <a class="dl-btn" href="./games/comiket/gakusai2016.zip">Download</a>
+                </div>
+              </div>
+            </div>
+            <label for="game27" class="open_button"><img src="./image/game/PandDSummer2016.png"></label>
+          </div><!--CONTENTSの終わり-->
+
+          <div class="game-content"><!--CONTENTSの始まり-->
+            <div class="modal_wrap">
+              <input id="game26" type="checkbox">
+              <div class="modal_overlay">
+                <label for="game26" class="modal_trigger"></label>
+                <div class="modal_content">
+                  <label for="game26" class="close_button">✖️</label>
+                  <h2>PandD 2015 SUMMER</h2>
+                  <div class="content-explain">
+                    <p>蒼翔祭2015にて無料配布したゲームの詰め合わせCDです</p>
+                    <ul>
+                      <li>Roomva</li>
+                      <li>The Kinetic Gear - trial -</li>
+                      <li>NEKOBABA</li>
+                      <li>あの世の事情</li>
+                    </ul>
+                    <img class="content-img" src="./image/game/gakusai2015.png">
+                  </div>
+                  <a class="dl-btn" href="./games/gakusai/gakusai2015.zip">Download</a>
+                </div>
+              </div>
+            </div>
+            <label for="game26" class="open_button"><img src="./image/game/gakusai2015.png"></label>
+          </div><!--CONTENTSの終わり-->
+
+          <div class="game-content"><!--CONTENTSの始まり-->
+            <div class="modal_wrap">
+              <input id="game25" type="checkbox">
+              <div class="modal_overlay">
+                <label for="game25" class="modal_trigger"></label>
+                <div class="modal_content">
+                  <label for="game25" class="close_button">✖️</label>
+                  <h2>PandD 2015 SUMMER</h2>
+                  <div class="content-explain">
+                    <p>コミックマーケットC88にて無料配布したゲームの詰め合わせCDです</p>
+                    <ul>
+                      <li>チャージ・ショート・ガード</li>
+                      <li>スイートマスシプラ</li>
+                      <li>木原ボム</li>
+                      <li>こむぶー、お届け！</li>
+                      <li>Roomva</li>
+                      <li>THE・マッサージ機</li>
+                    </ul>
+                    <img class="content-img" src="./image/game/Summer2015.png">
+                  </div>
+                  <a class="dl-btn" href="./games/comiket/PandD2015Summer.zip">Download</a>
+                </div>
+              </div>
+            </div>
+            <label for="game25" class="open_button"><img src="./image/game/Summer2015.png"></label>
+          </div><!--CONTENTSの終わり-->
+
+          <div class="game-content"><!--CONTENTSの始まり-->
+            <div class="modal_wrap">
+              <input id="game24" type="checkbox">
+              <div class="modal_overlay">
+                <label for="game24" class="modal_trigger"></label>
+                <div class="modal_content">
+                  <label for="game24" class="close_button">✖️</label>
+                  <h2>PandD STATION 2014 SUMMER & AUTUMN</h2>
+                  <div class="content-explain">
+                    <p>コミックマーケットC86にて無料配布したゲーム詰め合わせCDです</p>
+                    <ul>
+                      <li>KANKITSUだって恋がしたい!!</li>
+                      <li>ハイ・アンド・ロー</li>
+                      <li>余命30秒</li>
+                      <li>てぇとりぃすぅ</li>
+                    </ul>
+                    <img class="content-img" src="./image/game/2014螟上さ繝滓署蜃ｺ.png">
+                  </div>
+                  <a class="dl-btn" href="./games/comiket/pandd_c86.zip">Download</a>
+                </div>
+              </div>
+            </div>
+            <label for="game24" class="open_button"><img src="./image/game/2014螟上さ繝滓署蜃ｺ.png"></label>
+          </div><!--CONTENTSの終わり-->
+
+          <div class="game-content"><!--CONTENTSの始まり-->
+            <div class="modal_wrap">
+              <input id="game23" type="checkbox">
+              <div class="modal_overlay">
+                <label for="game23" class="modal_trigger"></label>
+                <div class="modal_content">
+                  <label for="game23" class="close_button">✖️</label>
+                  <h2>PandD STATION 2013 SUMMER</h2>
+                  <div class="content-explain">
+                    <p>コミックマーケットC84にて無料配布したゲーム詰め合わせCDです</p>
+                    <ul>
+                      <li>BOSS ACTION</li>
+                      <li>Matris</li>
+                      <li>ホッゲー</li>
+                      <li>pandaball</li>
+                      <li>寿司食いねぇ</li>
+                      <li>Elevator Girl</li>
+                      <li>GuardGame</li>
+                      <li>旋光の戦車</li>
+                      <li>バウンドゲーム</li>
+                      <li>いろいろCG</li>
+                    </ul>
+                    <img class="content-img" src="./image/game/s_c84.png">
+                  </div>
+                  <a class="dl-btn" href="./games/comiket/pandd_c84.zip">Download</a>
+                </div>
+              </div>
+            </div>
+            <label for="game23" class="open_button"><img src="./image/game/s_c84.png"></label>
+          </div><!--CONTENTSの終わり-->
+
+          <div class="game-content"><!--CONTENTSの始まり-->
+            <div class="modal_wrap">
+              <input id="game22" type="checkbox">
+              <div class="modal_overlay">
+                <label for="game22" class="modal_trigger"></label>
+                <div class="modal_content">
+                  <label for="game22" class="close_button">✖️</label>
+                  <h2>PandD STATION 2012 WINTER</h2>
+                  <div class="content-explain">
+                    <p>コミックマーケットC83にて無料配布したゲーム詰め合わせCDです</p>
+                    <ul>
+                      <li>failurebird</li>
+                      <li>ゴールを目指せ!!</li>
+                      <li>スタイリッシュ勇者</li>
+                      <li>obake2</li>
+                      <li>あくしょん☆げーむ</li>
+                      <li>いろいろCG</li>
+                    </ul>
+                    <img class="content-img" src="./image/game/s_c83.png">
+                  </div>
+                  <a class="dl-btn" href="./games/comiket/pandd_c83.zip">Download</a>
+                </div>
+              </div>
+            </div>
+            <label for="game22" class="open_button"><img src="./image/game/s_c83.png"></label>
+          </div><!--CONTENTSの終わり-->
+
+          <div class="game-content"><!--CONTENTSの始まり-->
+            <div class="modal_wrap">
+              <input id="game21" type="checkbox">
+              <div class="modal_overlay">
+                <label for="game21" class="modal_trigger"></label>
+                <div class="modal_content">
+                  <label for="game21" class="close_button">✖️</label>
+                  <h2>PandD STATION 2012 SUMMER</h2>
+                  <div class="content-explain">
+                    <p>コミティア101、ADVENTURESin会津48にて無料配布したゲーム詰め合わせCDです</p>
+                    <ul>
+                      <li>ゴールを目指せ！</li>
+                      <li>Car Game</li>
+                      <li>Final Atomic Spacial Adventure Neo</li>
+                      <li>Magnet</li>
+                      <li>いろいろCG</li>
+                    </ul>
+                    <img class="content-img" src="./image/game/s_comitia101.png">
+                  </div>
+                  <a class="dl-btn" href="./games/comitia/comitia101.zip">Download</a>
+                </div>
+              </div>
+            </div>
+            <label for="game21" class="open_button"><img src="./image/game/s_comitia101.png"></label>
+          </div><!--CONTENTSの終わり-->
+
+          <div class="game-content"><!--CONTENTSの始まり-->
+            <div class="modal_wrap">
+              <input id="game20" type="checkbox">
+              <div class="modal_overlay">
+                <label for="game20" class="modal_trigger"></label>
+                <div class="modal_content">
+                  <label for="game20" class="close_button">✖️</label>
+                  <h2>PandD STATION 2011 WINTER</h2>
+                  <div class="content-explain">
+                    <p>コミックマーケットC81にて無料配布したゲーム詰め合わせCDです</p>
+                    <ul>
+                      <li>スイカ割り</li>
+                      <li>Magnet</li>
+                      <li>気球に乗ってどこまでも</li>
+                      <li>いろいろCG</li>
+                    </ul>
+                    <img class="content-img" src="./image/game/s_c81.jpg">
+                  </div>
+                  <a class="dl-btn" href="./games/comiket/pandd_c81.zip">Download</a>
+                </div>
+              </div>
+            </div>
+            <label for="game20" class="open_button"><img src="./image/game/s_c81.jpg"></label>
+          </div><!--CONTENTSの終わり-->
+
+          <br>
+          <div class="andmore">
+            <a href="./game.html" class="andmore-btn">And more...</a>
+          </div>
+        </div>
+      </div>
+
+      <div id="right-container">
+        <!--にゅーーーーす -->
+        <div id="news-feed" class="news-container">
+          <h2>NEWS</h2>
+          <div class="content">
+            <!--NEWSエリアですが、JSによってニュースページからHTMLをもってくるしくみになっていますので、
+            書き加える必要はございません。新規ニュースはニュースページにだけ書き加えていただければ反映されます。-->
+          </div>
+        </div>
+
+        <!--twitter-->
+        <div id="twitter">
+          <h2>Twitter</h2>
+          <div class="twitter">
+            <a class="twitter-timeline" width="100%" height="500px" data-border-color="#000000" data-link-color="#808080" href="https://twitter.com/PandD_chan?ref_src=twsrc%5Etfw">Tweets by PandD_chan</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="clear"></div>
+
+  <footer id="footer" class="footer">
+    <div class="footer-left">
+      &copy;1999 企画開発部 PandD<br>
+      当サイト上のバナーを除くあらゆるデータの無断複製、無断転載を禁止します。
+    </div>
+  </footer>
+</body>
+</html>

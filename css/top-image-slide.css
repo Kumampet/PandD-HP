@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+.container{
+  text-align: center;
+  margin: 0 auto;
+  padding: 50px;
+  width: 899px;
+  color: #333;
+}
+.container > .item{
+  width: auto;
+}
+.slick-slide{
+  text-align: center;
+  color: #419be0;
+  background: white;
+}
+@media screen and (max-width: 970px) {
+  .container{
+    width: 90%;
+    padding: 10px 0;
+  }
+  .container img{
+    width: 100%;
+  }
+}

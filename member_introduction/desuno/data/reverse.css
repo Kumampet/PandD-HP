@@ -1,0 +1,303 @@
+BODY{
+scrollbar-face-color: #FFF; /* 表面の色 */
+scrollbar-arrow-color: #000; /* 矢印の色 */
+scrollbar-highlight-color: #333; /* ハイライトの色 */
+scrollbar-shadow-color: #000; /* 影の色 */
+scrollbar-base-color: #FFF; /* ベース色 */
+scrollbar-3dlight-color: #555; /* 左端と上端の色 */
+scrollbar-darkshadow-color: #555; /* 右端と下端の色 */
+scrollbar-track-color:#555;
+
+font-size: 12pt;
+color:#fff;
+background-color:#000;
+ 
+margin: 0;
+margin-left: 0;
+padding: 0;
+}
+
+A{text-decoration : underline;}
+a:link {color:#fff; text-decoration="underline"}
+a:visited {color:#fff; text-decoration="underline"}
+a:active {color:#fff;}
+a:hover {color:#fff; background-color: #ccc; text-decoration: none;}
+
+/*******    トップ     ********/
+
+
+#main{
+	background-image: url(../img/main_bg.png);
+	background-position: left top;;
+	background-repeat: repeat-y;
+}
+
+#ruleblock{
+	background-image: url(../img/rule_bg.png);
+	background-position: left top;;
+	background-repeat: repeat-y;
+}
+
+#story{
+	background-image: url(../img/story_bg.png);
+	background-position: left top;;
+	background-repeat: repeat-y;
+}
+
+#chara{
+	background-image: url(../img/chara_bg.png);
+	background-position: left top;;
+	background-repeat: repeat-y;
+}
+
+#ss{
+	background-image: url(../img/ss_bg.png);
+	background-position: left top;;
+	background-repeat: repeat-y;
+}
+
+#dl{
+	background-image: url(../img/dl_bg.png);
+	background-position: left top;;
+	background-repeat: repeat-y;
+}
+
+#staff{
+	background-image: url(../img/staff_bg.png);
+	background-position: left top;;
+	background-repeat: repeat-y;
+}
+
+#omake{
+	background-image: url(../img/omake_bg.png);
+	background-position: left top;;
+	background-repeat: repeat-y;
+}
+
+
+#main_menu{
+	width: 600px;
+	margin-left: 40px;
+	margin-top: 0px;
+	text-align: center;
+}
+
+
+#logo{
+	margin-top: 15px;
+	width: 600px;
+	padding-left: 40px;
+	padding-top: 5px;
+	margin-bottom: 10px;
+	text-align: right
+	color: #555;
+	font-weight: bold;
+	font-size: x-small;
+}
+
+#topic{
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+}
+
+#topic2{
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+}
+
+h6{
+	font-weight: normal;
+	font-size: 18px;
+	color: #FFF;
+	text-align: left;
+	background-color: #000;
+	margin: 5 0 3 0;
+	padding-left:15px;
+	border-bottom: 1px dashed #FFF;
+}
+
+#toptext {
+	margin: 0 0 0 15;
+	color: #eee;
+	text-align: left;
+	padding-left: 120px;
+	font-size: x-small;
+	line-height : 150%;
+}
+
+#ruletext {
+	margin: 20 0 30 15;
+	color: #333;
+	text-align: left;
+	padding-left: 180px;
+	font-size: x-small
+}
+
+#storytext {
+	background-image: url(../img/table_bg.png);
+	background-position: left top;
+	background-repeat: repeat;
+	margin: 10 0 0 15;
+	color: #333;
+	text-align: left;
+	padding-left: 80px;
+	width: 550px;
+	font-size: x-small;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+
+#stafftext {
+	background-image: url(../img/table_bg.png);
+	background-position: left top;
+	background-repeat: repeat;
+	margin: 15 0 0 15;
+	color: #333;
+	text-align: left;
+	padding-left: 40px;
+	width: 500px;
+	font-size: x-small;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+#spec{
+	border:  1px solid #333;
+	font-size: x-small;
+	color: #000;
+
+}
+
+#stflist{
+	font-size: x-small;
+	color: #000;
+}
+#stflist td{
+	border-bottom:  1px solid #333;
+}
+
+#rulelist{
+	font-size: x-small;
+	color: #000;
+	background-image: url(../img/table_bg.png);
+	background-position: left top;
+	background-repeat: repeat;
+	margin-left: 190px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+#rulelist td{
+	border-bottom:  1px solid #333;
+}
+
+#keylist{
+	font-size: x-small;
+	color: #000;
+	background-image: url(../img/table_bg.png);
+	background-position: left top;
+	background-repeat: repeat;
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-bottom: 20px;
+	width: 360px;
+}
+#rulelist td{
+	border-bottom:  1px solid #333;
+}
+
+#listtopi{
+ font-weight: bolder;
+ background-color: #BBB;
+}
+
+#dllist{
+	width: 80%;
+	font-size: x-small;
+	color: #000;
+	background-image: url(../img/table_bg.png);
+	background-position: left top;
+	background-repeat: repeat;
+	margin-left: 40px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#dllist td{
+	border-bottom:  1px solid #333;
+}
+
+#omaketxt{
+	width: 85%;
+	font-size: x-small;
+	color: #000;
+	background-image: url(../img/table_bg.png);
+	background-position: left top;
+	background-repeat: repeat;
+	margin-left: 60px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+#omaketxt tr{
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	}
+
+#omaketxt td{
+	border-bottom: 1px dashed #333;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	}
+
+
+#yuri{
+	background-image: url(../img/yuri.png);
+	text-align: left;
+	height: 235px;
+}
+#crow{
+	background-image: url(../img/crow.png);
+	text-align: left;
+	height: 235px;
+}
+
+#leen{
+	background-image: url(../img/leen.png);
+	text-align: left;
+	height: 235px;
+}
+#osero{
+	background-image: url(../img/osero.png);
+	text-align: left;
+	height: 235px;
+}
+#kohaku{
+	background-image: url(../img/kohaku.png);
+	text-align: left;
+	height: 235px;
+}
+
+#shamyu{
+	background-image: url(../img/shamyu2.png);
+	text-align: left;
+	height: 235px;
+}
+#hururu{
+	background-image: url(../img/hururu2.png);
+	text-align: left;
+	height: 235px;
+}
+#still{
+	background-image: url(../img/still.png);
+	text-align: left;
+	height: 235px;
+}
+#mono{
+	background-image: url(../img/mono.png);
+	text-align: left;
+	height: 235px;
+}

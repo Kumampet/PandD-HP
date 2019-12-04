@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+
+<head>
+  <!--Metas-->
+  <meta charset="utf-8">
+  <meta lang="ja">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <!--Title-->
+  <title>企画開発部 Illust</title>
+
+  <!--Links-->
+  <link rel="shortcut icon" href="./image/top_s/wakata_ico.png">
+  <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet"><!--Font-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"><!--アコーディオンメニューの矢印アイコン-->
+
+
+  <!--CSS-->
+  <link rel="stylesheet" type="text/css" href="./css/layout.css?00">
+  <link rel="stylesheet" type="text/css" href="./css/header.css">
+  <link rel="stylesheet" type="text/css" href="./css/illust.css">
+  <link rel="stylesheet" type="text/css" href="./css/footer.css">
+
+  <!--Scripts-->
+  <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="./js/illust_modal.js"></script>
+
+
+</head>
+
+<body>
+  <div id="layout">
+    <header id="site_header" class="site_header">
+      <div class="header_logo">
+        <div id="nav-drawer">
+          <input id="nav-input" type="checkbox" class="nav-unshown">
+          <label id="nav-open" for="nav-input"><span></span></label>
+          <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+          <div id="nav-content">
+            <nav id="navi-menu-moile" class="menu-mobile">
+              <ul>
+                <li><a href="./index.html" id="top">Top</a></li>
+                <li><a href="./about.html" id="about">About</a></li>
+                <li><a href="./news.html" id="news">News</a></li>
+                <li><a href="./member.html" id="member">Member</a></li>
+                <li><a href="./game.html" id="game">Game</a></li>
+                <li><a href="./illust.html" id="illust">Illust</a></li>
+                <li><a href="./study.html" id="study">Study</a></li>
+              </ul>
+            </nav>
+            <label class="return-btn" for="nav-input"><p>←Close</p></label>
+          </div>
+        </div>
+        <div class="logo">
+          <img class="aniv-logo" src="./image/20th_aniv.png">
+          <a href="index.html"><img class="main-logo" src="./image/logo.png"></a>
+        </div>
+      </div>
+
+      <nav id="navi-menu" class="menu">
+        <ul class="menu_ul">
+          <li class="menu_item"><a href="./index.html" id="top">Top</a></li>
+          <li class="menu_item"><a href="./about.html" id="about">About</a></li>
+          <li class="menu_item"><a href="./news.html" id="news">News</a></li>
+          <li class="menu_item"><a href="./member.html" id="member">Member</a></li>
+          <li class="menu_item"><a href="./game.html" id="game">Game</a></li>
+          <li class="menu_item"><a href="./illust.html" id="illust">Illust</a></li>
+          <li class="menu_item"><a href="./study.html" id="study">Study</a></li>
+        </ul>
+      </nav>
+
+    </header>
+
+    <div class="about-main">
+
+      <!--モーダウウィンドテンプレ-->
+      <!--付属のJavaScriptにより内容がここに上書きされて表示されます。IDやクラス名は変更しないようにお願いします-->
+      <div id="modal-window">
+        <div id="illust-container">
+          <!--ここに画像がjsを通して追加されます-->
+        </div>
+      </div>
+      <!--モーダウウィンドウテンプレ終了-->
+
+
+
+      <h2>PandD Illust Gallery</h2>
+      <div class="content">
+        <p>
+          PandDのグラフィッカー渾身の作品たちです。<br>
+          どうぞご覧ください。
+        </p>
+        <!--イラストページアコーディオンメニュー-->
+        <div class="accbox">
+          <!--ラベル1-->
+          <label for="label1"><i class="fas fa-angle-right"></i>過去のTOP絵ギャラリー</label>
+          <input type="checkbox" id="label1" class="cssacc" />
+          <div class="accshow">
+            <p>サムネイルをクリックして画像をご覧いただけます。</p>
+            <div class="icons">
+
+              <!-- ここの下に追加していく -->
+
+
+              <div class="illust">
+                <h3 class="name">若田笹箕</h3>
+                <img src="image/top_s/wakata_ico.png" alt="絵：若田笹箕" class="modal-open thumbnail" id="wakata">
+                <div class="illust-content" id="wakata">
+                  <img src="./image/top/wakata_illust.png">
+                  <p class="illust-comment">
+                    ６、７月は記録的猛暑で猛暑日が続き大変でしたね。<br>
+                    夏と言えば海！ってことで以前のトップ絵と被ってますが水着イラスト初チャレンジしました。<br>
+                    描きあがった頃にはもう気温も下がり夜は肌寒くなってました()。<br><br>
+                    余談ですが私がやっつけで考えた10円くんというキャラがいるんですが、なぜがサークル内でバズりましてすっかり部員に気に入られたようです。<br>
+                    その証拠が今年度夏コミで配布したゲーム集に表れていますね(笑)。
+                  </p>
+                </div>
+              </div>
+
+              <div class="illust">
+                <h3 class="name">Nacht</h3>
+                <img src="image/top_s/Nacht_top_s.png" alt="絵：Nacht" class="modal-open thumbnail" id="nacht">
+                <div class="illust-content" id="nacht">
+                  <img src="./image/top/Nacht_top.png">
+                  <p class="illust-comment">今年もまた夏がやってくる！</p>
+                </div>
+              </div>
+
+              <div class="illust">
+                <h3 class="name">オユ</h3>
+                <img src="image/top_s/oyu_top_s.jpg" alt="絵：オユ" class="modal-open thumbnail" id="oyu">
+                <div class="illust-content" id="oyu">
+                  <img src="./image/top/oyu_top.jpg">
+                  <p class="illust-comment">今年の花見はちゃんと咲いている桜が見れました！　<br>・・・プログラマーなのに何故か絵を任されたんです</p>
+                </div>
+              </div>
+
+              <div class="illust">
+                <h3 class="name">みゃー</h3>
+                <img src="image/top_s/mya_top2.jpg" alt="絵：みゃー" class="modal-open thumbnail" id="mya">
+                <div class="illust-content" id="mya">
+                  <img src="./image/top/mya_top.jpg">
+                  <p class="illust-comment">遅くなって、すみません。今年はあまり降らなかったようですが雪です！</p>
+                </div>
+              </div>
+
+              <div class="illust">
+                <h3 class="name">テトラ</h3>
+                <img src="image/top_s/icon.png" alt="絵：テトラ" class="modal-open thumbnail" id="tetora">
+                <div class="illust-content" id="tetora">
+                  <img src="./image/top/top_latest.jpg">
+                  <p class="illust-comment">初デジ絵なのでした。 Merry Christmas! そしてよいお年を！</p>
+                </div>
+              </div>
+
+              <div class="illust">
+                <h3 class="name">A.Q.</h3>
+                <img src="image/top_s/AQTOP3.jpg" alt="絵：A.Q." class="modal-open thumbnail" id="aq">
+                <div class="illust-content" id="aq">
+                  <img src="./image/top/AQTOP1.jpg">
+                  <p class="illust-comment">遅れてごめんなさい・・・</p>
+                </div>
+              </div>
+
+              <div class="illust">
+                <h3 class="name">ゼロ</h3>
+                <img src="image/top_s/PandDicon_zero.jpg" alt="絵：ゼロ" class="modal-open thumbnail" id="zero">
+                <div class="illust-content" id="zero">
+                  <img src="./image/top/PandDillust_zero.jpg">
+                  <p class="illust-comment">疲れたー 締め切り５時間過ぎてすいません‥</p>
+                </div>
+              </div>
+
+
+              <div class="illust">
+                <h3 class="name">timtim</h3>
+                <img src="image/top_s/top43.jpg" alt="絵：timtim" class="modal-open thumbnail" id="timtim">
+                <div class="illust-content" id="timtim">
+                  <img src="./image/top/top43a.jpg">
+                  <p class="illust-comment">桜早く咲きませんかねえ</p>
+                </div>
+              </div>
+
+              <div class="illust">
+                <h3 class="name">やす子</h3>
+                <img src="image/top_s/top42.jpg" alt="絵：やす子" class="modal-open thumbnail" id="yasuko">
+                <div class="illust-content" id="yasuko">
+                  <img src="./image/top/top42a.jpg">
+                  <p class="illust-comment">実家は全く雪がありません…やす子です。期末試験、お疲れ様でした。</p>
+                </div>
+              </div>
+
+              <div class="illust">
+                <h3 class="name">たなま</h3>
+                <img src="image/top_s/top41.jpg" alt="絵：たなま" class="modal-open thumbnail" id="tanama">
+                <div class="illust-content" id="tanama">
+                  <img src="./image/top/top41a.jpg">
+                  <p class="illust-comment">
+                    期末試験が近づきつらみ極まるたなまです。<br>
+                    雪が降らないところから来た人間なので木に雪が積もったのを初めて見た時は感動を覚えたわけですね。<br>
+                    今では雪が降ると絶望を感じるわけですね。
+                  </p>
+                </div>
+              </div>
+
+              <div class="illust">
+                <h3 class="name">オーディン</h3>
+                <img src="image/top_s/top40.jpg" alt="絵：オーディン" class="modal-open thumbnail" id="odin">
+                <div class="illust-content" id="odin">
+                  <img src="./image/top/top40a.jpg">
+                  <p class="illust-comment">デジ絵ってすごい時間かかるもんなんだなと実感しました<br> 今までで一番時間かけました。</p>
+                </div>
+              </div>
+
+              <div class="illust">
+                <h3 class="name">けたろう</h3>
+                <img src="image/top_s/top38.jpg" alt="絵：けたろう" class="modal-open thumbnail" id="ketarou">
+                <div class="illust-content" id="ketarou">
+                  <img src="./image/top/top38a.jpg">
+                  <p class="illust-comment">こたつがないと死んでしまうけたろうです。<br> 会津はもう雪です。私は雪が降ると一限がなくなります（自主休講）</p>
+                </div>
+              </div>
+
+
+              <div class="illust">
+                <h3 class="name">Opta</h3>
+                <img src="image/top_s/top37.jpg" alt="絵：Opta" class="modal-open thumbnail" id="opta2">
+                <div class="illust-content" id="opta2">
+                  <img src="./image/top/top37a.jpg">
+                  <p class="illust-comment">卒論がつらいOptaです。<br> 温かいコーヒーとケーキでまったりしたい。</p>
+                </div>
+              </div>
+
+
+              <div class="illust">
+                <h3 class="name">Opta</h3>
+                <img src="image/top_s/top35.jpg" alt="絵：Opta" class="modal-open thumbnail" id="opta1">
+                <div class="illust-content" id="opta1">
+                  <img src="./image/top/top35.jpg">
+                  <p class="illust-comment">
+                    久しぶりの更新ですね。Optaです。<br> ハエトリグサような髪の子が上から落ちてくるお菓子を次々髪でキャッチしていくゲームを考えたのですが...
+                    <s>誰かコード書いt</s><br>
+                    <b>ゲーム作ってます！『スイートマスシプラ』というゲームの体験版を学祭で展示しました！(14/10/12)</b>
+                  </p>
+                </div>
+              </div>
+
+
+              <div class="illust">
+                <h3 class="name">カミヤン</h3>
+                <img src="image/top_s/top31.png" alt="絵：カミヤン" class="modal-open thumbnail" id="kamiyan">
+                <div class="illust-content" id="kamiyan">
+                  <img src="./image/top/top31.png">
+                </div>
+              </div>
+
+
+              <div class="illust">
+                <h3 class="name">シュガー</h3>
+                <img src="image/top_s/top30.png" alt="絵：シュガー" class="modal-open thumbnail" id="sugar">
+                <div class="illust-content" id="sugar">
+                  <img src="./image/top/top30.png">
+                  <p class="illust-comment">すごく遅れた上に季節はずれ<br> だがしかし、初めてのトップ絵だったので楽しく描けた気がします</p>
+                </div>
+              </div>
+
+
+              <div class="illust">
+                <h3 class="name">abe</h3>
+                <img src="image/top_s/top29.png" alt="絵：abe" class="modal-open thumbnail" id="abe">
+                <div class="illust-content" id="abe">
+                  <img src="./image/top/top29.png">
+                  <p class="illust-comment">
+                    初めてトップ絵を描かせて頂きました。
+                    <br> 最近寒くなってきたのでテーマは「冬」です。
+                    <br> 冬って寂しいイメージがありますよねぇ。そんな感じと暖かさを表現したつもりです。
+                    <br> デジ絵はまだそんなに描いていないので、これからいっぱい描いていこうと思います。(特に人中心になるのかな？)
+                    <br> そんなこんなで仕事と勉強に追われているabeでした。
+                  </p>
+                </div>
+              </div>
+
+
+              <div class="illust">
+                <h3 class="name">白猫。</h3>
+                <img src="image/top_s/top28.png" alt="絵：白猫。" class="modal-open thumbnail" id="shironeko">
+                <div class="illust-content" id="shironeko">
+                  <img src="./image/top/top28.png">
+                  <p class="illust-comment">
+                    トップイラストの更新が滞ってしまって本当にごめんなさい。
+                    <br> お待たせしました、秋のトップ絵です！
+                    <br> 女の子なら、一度くらい…こんな経験、あるんじゃないでしょうか。
+                    <br> 最後に。
+                    <br> 更新遅くなってPandDのみんなに迷惑かけちゃってほんとにすいませんでした；
+                    <br> これからもイラスト精進するよ！！
+                    <br> 白猫。でした！！
+                  </p>
+                </div>
+              </div>
+
+              <div class="illust">
+                <h3 class="name">ぶっさん</h3>
+                <img src="image/top_s/top27.png" alt="絵：ぶっさん" class="modal-open thumbnail" id="bussan">
+                <div class="illust-content" id="bussan">
+                  <img src="./image/top/top27.png">
+                  <p class="illust-comment">
+                    初めてTop絵を描かせていただきました。
+                    <br> 自分がグラフィッカーなので、とりあえず女の子に絵を描いてもらえばいいんじゃねぇの？というノリでこの絵を描きました（笑）
+                    <br> まぁ、背景がさびしいとか言われそうですがそこはご勘弁を。
+                    <br> 楽しかったのでよかったです。
+                  </p>
+                </div>
+              </div>
+
+              <div class="illust">
+                <h3 class="name">佐藤二号</h3>
+                <img src="image/top_s/top26.jpg" alt="絵：佐藤二号" class="modal-open thumbnail" id="satoh2nd">
+                <div class="illust-content" id="satoh2nd">
+                  <img src="./image/top/top26.jpg">
+                  <p class="illust-comment">
+                    なぜ春には祭が無いのか…夏祭りはもちろん、収穫祭や雪祭りもあるのに。花見があるからなんですかね？
+                    <br> あ、関係ないですが一番好きな季節は梅雨です。梅雨に回して欲しかったな…まあ季節ものって制限があるわけでもないですが！←
+                    <br> 和物イイヨーということで絵は金魚と狐。
+                  </p>
+                </div>
+              </div>
+
+              <div class="illust">
+                <h3 class="name">ルイ</h3>
+                <img src="image/top_s/top25.jpg" alt="絵：ルイ" class="modal-open thumbnail" id="rui">
+                <div class="illust-content" id="rui">
+                  <img src="./image/top/top25.jpg">
+                  <p class="illust-comment">
+                    ”お題製造器”で「カフェ」「旅人」「禁術」が出たので、自分なりにそれっぽく描いてみました。
+                    <br> 時期的に「あったかいココアが美味しい季節になりましたねぇ」のつもりだったのに、あったかいココアだけじゃれて申し訳ありませんでした！。
+                    <br> 季節感もあっていませんしダメダメでした。
+                  </p>
+                </div>
+              </div>
+
+              <div class="illust">
+                <h3 class="name">飛（フェイ）</h3>
+                <img src="image/top_s/top19.gif" alt="絵：飛（フェイ）" class="modal-open thumbnail" id="fei">
+                <div class="illust-content" id="fei">
+                  <img src="./image/top/top19.jpg">
+                  <p class="illust-comment">
+                    こんにちは。飛です。
+                    <br> バレンタインの時期なのでそれっぽくしてみました。
+                    <br> いつも以上に時間がかかりました...
+                  </p>
+                </div>
+              </div>
+
+              <div class="illust">
+                <h3 class="name">あい</h3>
+                <img src="image/top_s/top18.gif" alt="絵：あい" class="modal-open thumbnail" id="ai">
+                <div class="illust-content" id="ai">
+                  <img src="./image/top/top18.jpg">
+                  <p class="illust-comment">
+                    こんにちは。あいです。
+                    <br> ハロウィンが近いからハロウィン風にしようと思ったんですけど
+                    <br> もうすぐハロウィン終わるからハロウィンっぽくない配色にしたほうがいいかな
+                    <br> とかうだうだ考えながら塗ってたので中途半端になってしまいました。
+                  </p>
+                </div>
+              </div>
+
+              <div class="illust">
+                <h3 class="name">やまもっさん</h3>
+                <img src="image/top_s/top17.gif" alt="絵：やまもっさん" class="modal-open thumbnail" id="yamamossan">
+                <div class="illust-content" id="yamamossan">
+                  <img src="./image/top/top17.jpg">
+                  <p class="illust-comment">
+                    こんにちわ〜。やまもっさんです。。。
+                    <br> 今回は扇風機に「あ〜」ってやってるところですよ〜。
+                    <br> 扇風機って夏場は必須ですよね〜。
+                    <br> やまもっさんなんかはもう最近抱きかかえて寝ております（ぉ
+                    <br> そうそう、書いたとおりコミケに受かりました！
+                    <br> 今回はCD無料配布です！！内容はゲームの詰め合わせとなっております。。。
+                    <br> ほかにも絵師さんたちの作品もたくさん入れる予定なので是非是非よろしくお願いします！！
+                  </p>
+                </div>
+              </div>
+
+              <div class="illust">
+                <h3 class="name">PURE（プレ）</h3>
+                <img src="image/top_s/top16.gif" alt="絵：PURE（プレ）" class="modal-open thumbnail" id="pure">
+                <div class="illust-content" id="pure">
+                  <img src="./image/top/top16.jpg">
+                  <p class="illust-comment">
+                    至ってふつうのトップ絵になってしまいました。
+                    <br> 好き勝手に描く時間がありませんでした・・・！
+                    <br> 背景が中途半端になってしまいましたが許してください〜！！
+                  </p>
+                </div>
+              </div>
+
+              <div class="illust">
+                <h3 class="name">ミネ</h3>
+                <img src="image/top_s/top15.gif" alt="絵：ミネ" class="modal-open thumbnail" id="mine">
+                <div class="illust-content" id="mine">
+                  <img src="./image/top/top15.jpg">
+                  <p class="illust-comment">
+                    季節遅れですけど春の画像です。
+                    <br> 短い時間で作ったのでちょっとおかしいところがありますが、
+                    <br> まあ、気にしない方向で。
+                  </p>
+                </div>
+              </div>
+
+              <div class="illust">
+                <h3 class="name">わんこと梟</h3>
+                <img src="image/top_s/top14.gif" alt="絵：わんこと梟" class="modal-open thumbnail" id="wanko">
+                <div class="illust-content" id="wanko">
+                  <img src="./image/top/top14.jpg">
+                  <p class="illust-comment">
+                    こんにちは、わんこと梟です。 シーズンを意識して、ヴァレンタイン風なイラストを描いてみました。 <br>
+                    まあ、とはいえ自分にはあまり意味のないイベントですねＨＡ〜ＨＡ〜ＨＡ〜
+                  </p>
+                </div>
+              </div>
+
+              <div class="illust">
+                <h3 class="name">ふくしゃちょう</h3>
+                <img src="image/top_s/top13.gif" alt="絵：ふくしゃちょう" class="modal-open thumbnail" id="fukushacho">
+                <div class="illust-content" id="fukushacho">
+                  <img src="./image/top/top13.jpg">
+                  <p class="illust-comment">
+                    どうも、ふくしゃちょうです。
+                    <br> この絵描き始めたのはちゃんと運動会シーズンだったんです；；
+                    <br> しかし思った以上に時間がかかってしまい、描き終わったころには11月。
+                    <br> 結局シーズン間違えた絵になってしまいました。
+                    <br> これの大きいバージョンの絵もあるんでよかったら私のHPも是非！（宣伝）
+                  </p>
+                </div>
+              </div>
+
+              <div class="illust">
+                <h3 class="name">わいのにじょう</h3>
+                <img src="image/top_s/top12.gif" alt="絵：わいのにじょう" class="modal-open thumbnail" id="wainonijo">
+                <div class="illust-content" id="wainonijo">
+                  <img src="./image/top/top12.jpg">
+                  <p class="illust-comment">
+                    PandD Model 80<br> 口径　：　９x１９
+                    <br> 装弾数　：　17+1/30+1(ロングマガジン使用時)
+                    <br> 発射形式　：　セミ/フル
+                    <br>
+                    <br> 初めてトップ絵を描かさせて頂きました、わいのにじょうです。
+                    <br> 銃好きなんで３Ｄでこんなのを作ってしまいました。「Model 80」と命名(以下M80)。<br> 何かの銃に似てると思った人。それはきっと気のせいです。それ以上気にしないように。
+                    <br> さらっとスペックを書きましたが、補足説明を。
+                    <br> セレクターの切り替えによってフルオート射撃(マシンガンみたいな感じ)が可能。
+                    <br> 銃身下部のマウントベースにはいろいろなものを装着できます。
+                    <br> 絵にあるのはM80用グレネードランチャー。専用の２９ミリグレネード弾が撃てます。
+                    <br> ぱんどどのロゴマークとか勝手に作ってしまいました。
+                    <br> ひぃぃぃ〜ゴメンナサイ！
+                  </p>
+                </div>
+              </div>
+
+              <div class="illust">
+                <h3 class="name">高菜</h3>
+                <img src="image/top_s/top11.gif" alt="絵：高菜" class="modal-open thumbnail" id="takana">
+                <div class="illust-content" id="takana">
+                  <img src="./image/top/top11.jpg">
+                  <p class="illust-comment">
+                    へたれグラフィッカもどきの高菜です。
+                    <br> これ、始めはファンタジーで変な帽子の、
+                    <br> 頭がちょっとお花畑ぽい娘さんを
+                    <br> 描こうかと思ってたはずなのですが
+                    <br> …あれ？なんかいろいろ微妙になりました。
+                  </p>
+                </div>
+              </div>
+
+              <div class="illust">
+                <h3 class="name">いつき</h3>
+                <img src="image/top_s/top10.gif" alt="絵：いつき" class="modal-open thumbnail" id="itsuki">
+                <div class="illust-content" id="itsuki">
+                  <img src="./image/top/top10.jpg">
+                  <p class="illust-comment">
+                    どうも、いつきです。
+                    <br> このムキムキで、たくましく、かっこいいキャラはワイザーといいます。
+                    <br> １年程前に、わいのにじょうさんに描いてもらいました葛ﾛがｲﾊﾟｰｲいましたｗいや、もうすげぇのネー。
+                  </p>
+                </div>
+              </div>
+
+              <div class="illust">
+                <h3 class="name">ふくしゃちょう</h3>
+                <img src="image/top_s/top06.gif" alt="ふくしゃちょう" class="modal-open thumbnail" id="fukushacho2">
+                <div class="illust-content" id="fukushacho2">
+                  <img src="./image/top/top06.jpg">
+                  <p class="illust-comment">
+                    この作品で２つめになります ふくしゃちょうです！
+                    <br> この作品は授業中に描いた落書きをそのままぬったある意味てきとーなものですｗ
+                    <br> 喜んでもらえたらうれいしです ^o^/
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--//ラベル1-->
+          <!--ラベル2-->
+          <label for="label2"><i class="fas fa-angle-right"></i>イラストギャラリー</label>
+          <input type="checkbox" id="label2" class="cssacc" />
+          <div class="accshow">
+            <!--中身-->
+            <p>まだありません</p>
+          </div>
+          <!--ラベル２-->
+        </div>
+        <!--アコーディオンメニュー終了-->
+      </div>
+    </div>
+
+    <footer>
+      <div class="warning">Copyright : 企画開発部 PandD</div>
+      <div class="warning">当サイト上のバナーを除くあらゆるデータの無断複製、無断転載を禁止します</div>
+    </footer>
+
+  </div>
+
+</body>
+</html>

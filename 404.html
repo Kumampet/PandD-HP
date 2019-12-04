@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<head>
+  <!--Metas-->
+  <meta charset="utf-8">
+  <meta lang="ja">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maxmun-scale=1">
+
+  <!--Title-->
+  <title>企画開発部 404Error</title>
+
+  <!--Links-->
+  <link rel="shortcut icon" href="./image/top_s/wakata_ico.png">
+  <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet"><!--Font-->
+
+
+  <!--CSS-->
+  <link rel="stylesheet" type="text/css" href="./css/layout.css">
+  <link rel="stylesheet" type="text/css" href="./css/header.css">
+  <link rel="stylesheet" type="text/css" href="./css/404.css">
+  <link rel="stylesheet" type="text/css" href="./css/footer.css">
+  <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
+
+  <!--Scripts-->
+  <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="./js/rand_404_img.js"></script>
+  <script type="text/javascript">
+  $(function(){
+    $("#site_header").css("position","static");
+    $(".about-main").css("margin-top","0");
+  });
+  </script>
+
+</head>
+
+<body>
+  <div id="layout">
+    <div class="group1">
+      <header id="site_header" class="site_header">
+        <div class="header_logo">
+          <div id="nav-drawer">
+            <input id="nav-input" type="checkbox" class="nav-unshown">
+            <label id="nav-open" for="nav-input"><span></span></label>
+            <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+            <div id="nav-content">
+              <nav id="navi-menu-moile" class="menu-mobile">
+                <ul>
+                  <li><a href="index.html" id="top">Top</a></li>
+                  <li><a href="./about.html" id="about">About</a></li>
+                  <li><a href="./news.html" id="news">News</a></li>
+                  <li><a href="./member.html" id="member">Member</a></li>
+                  <li><a href="./game.html" id="game">Game</a></li>
+                  <li><a href="./illust.html" id="illust">Illust</a></li>
+                  <li><a href="./study.html" id="study">Study</a></li>
+                </ul>
+              </nav>
+              <label class="return-btn" for="nav-input"><p>←Close</p></label>
+            </div>
+          </div>
+          <div class="logo">
+            <a href="index.html"><img class="main-logo" src="./image/logo.png"></a>
+          </div>
+        </div>
+
+        <nav id="navi-menu" class="menu">
+          <ul class="menu_ul">
+            <li class="menu_item"><a href="index.html" id="top">Top</a></li>
+            <li class="menu_item"><a href="./about.html" id="about">About</a></li>
+            <li class="menu_item"><a href="./news.html" id="news">News</a></li>
+            <li class="menu_item"><a href="./member.html" id="member">Member</a></li>
+            <li class="menu_item"><a href="./game.html" id="game">Game</a></li>
+            <li class="menu_item"><a href="./illust.html" id="illust">Illust</a></li>
+            <li class="menu_item"><a href="./study.html" id="study">Study</a></li>
+          </ul>
+        </nav>
+
+      </header>
+
+      <div class="about-main">
+        <div class="img-container">
+          <img id="error" src="" alt="404ERROR">
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-left">
+        &copy;1999 企画開発部 PandD<br>
+        当サイト上のバナーを除くあらゆるデータの無断複製、無断転載を禁止します。
+      </div>
+    </footer>
+
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+body{
+margin:0;
+width:100%;
+background-image: url('./bg.png');
+background-position: top center;
+background-repeat: repeat-y;
+scrollbar-face-color: #FFF; /* 表面の色 */
+scrollbar-arrow-color: #FF7AAC; /* 矢印の色 */
+scrollbar-highlight-color: #FFF; /* ハイライトの色 */
+scrollbar-shadow-color: #FF7AAC; /* 影の色 */
+scrollbar-base-color: #FFF; /* ベース色 */
+scrollbar-3dlight-color: #FF7AAC; /* 左端と上端の色 */
+scrollbar-darkshadow-color: #FF7AAC; /* 右端と下端の色 */
+scrollbar-track-color:#FFF;
+text-align: center;
+
+font-size: 12pt;
+color:#333;
+ 
+margin: 0;
+margin-left: 0;
+padding: 0;
+}
+
+A{text-decoration : underline;}
+a:link {color:#333; text-decoration="underline"}
+a:visited {color:#333; text-decoration="underline"}
+a:active {color:#333;}
+a:hover {color:#AC1D53; text-decoration: none;}
+
+/*******    トップ     ********/
+
+#wrapper {
+	width: 760px;
+	margin: 0 auto;
+	padding: 0;
+
+}
+
+.draw{
+	width: 750px;
+	border: 0;
+	margin-top: 30px;
+}
+
+#txt{
+	height: 520px;
+	width: 250px;
+	border:  2px dotted #03C6B0;
+	padding: 15px;
+	margin: 5px;
+	font-size: 12px;
+	background-image: url('./bg_table.png');
+	background-position: top left;
+	background-repeat: repeat-y repeat-x;
+}

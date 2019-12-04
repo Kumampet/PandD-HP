@@ -1,0 +1,297 @@
+@charset "UTF-8";
+
+/*--モーダルウィンドウ関連--*/
+/*モーダルウィンドウ関連*/
+/* モーダル コンテンツエリア */
+#modal-window {
+  position: fixed;
+  text-align: center;
+  display: none;
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(#ffffff, 0);
+  color: #666666;
+  z-index: 9998;
+  cursor: default;
+}
+#modal-window > .close-btn{
+  font-size: 140%;
+  position: absolute;
+  right: 40px;
+}
+.close_btn{
+  margin: 5px auto 5px;
+  color: #000000;
+  border: solid 2px #000000;
+  border-radius: 10px;
+  width: 200px;
+}
+.close_btn:hover{
+  color: #ffffff;
+  background-color: #000000;
+  border: solid 2px #000000;
+  border-radius: 10px;
+  transition: .5s;
+}
+#comment{
+  opacity: 1;
+  text-align: left;
+  margin: 0;
+  padding: 10px;
+  bottom: 5px;
+  width: auto;
+  height: auto;
+  max-height: 50%;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  -webkit-transition:	all 0.6s ease;
+  transition:		all 0.6s ease;
+  z-index: 9999;
+  overflow: scroll;
+  -ms-overflow-style: none;
+}
+#comment::-webkit-scrollbar {
+  display: none;
+}
+#illust_preview{
+  width: auto;
+  height: auto;
+  max-height: 600px;
+  margin: 0;
+  padding: 0;
+  bottom: 0;
+}
+@media screen and (max-width: 900px) {
+
+  #illust_preview{
+    width: auto;
+    height: auto;
+    max-height: none;
+    max-width: 95%;
+  }
+}
+/* モーダル 背景エリア */
+#modal-bg {
+  display:none;
+  width:100%;
+  height:120%;
+  background-color: rgba(0,0,0,0.5);
+  position:fixed;
+  top:0;
+  left:0;
+  z-index: 9997;
+}
+/*アコーディオンメニュー*/
+/*ボックス全体*/
+.accbox {
+  margin: 2em 0;
+  padding: 0;
+  max-width: 100%;/*最大幅*/
+}
+/*ラベル*/
+.accbox label {
+  display: block;
+  margin: 1.5px 0;
+  padding : 11px 12px;
+  color :#ffffff;
+  font-weight: bold;
+  background :#000000;
+  cursor :pointer;
+  transition: all 1s;
+}
+/*ラベルホバー時*/
+.accbox label:hover {
+  background :#444444;
+}
+/*チェックは隠す*/
+.accbox input {
+  display: none;
+}
+/*中身を非表示にしておく*/
+.accbox .accshow,.accshow-job{
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: 1s;
+}
+/*クリックで中身表示*/
+.cssacc:checked + .accshow {
+  height: auto;
+  padding: 5px;
+  background: #eaeaea;
+  opacity: 1;
+  transition: 1s;
+}
+.cssacc-job:checked + .accshow-job {
+  height: auto;
+  padding: 5px;
+  background: #e3f5ff;
+  opacity: 1;
+  transition: 1s;
+}
+
+
+/*--ベース設定--*/
+.about-main h2{
+  background: #000000;
+  color: #ffffff;
+  border-radius: 10px 10px 0 0;
+  padding: 10px 20px 0;
+  margin: 0 10% 0;
+}
+.about-main .content{
+  background: #fff;
+  padding: 10px 20px;
+  margin: 0 10% 10px;
+}
+.illust-content{
+  display: none;
+}
+.illust{
+  text-align: center;
+  padding: 0;
+  margin: 5px 5px;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  background: #eaeaea;
+  border-left: double 7px #eaeaea;/*左線*/
+  border-right: double 7px #eaeaea;/*右線*/
+  -webkit-transition:	all 0.6s ease;
+  transition:	all 0.6s ease;
+}
+.illust:hover{
+  background: #d4d4d4;
+  border-left: double 7px #4ec4d3;/*左線*/
+  border-right: double 7px #4ec4d3;/*右線*/
+  width: 200px;
+  -webkit-transition:	all 0.6s ease;
+  transition:	all 0.6s ease;
+}
+.illust:hover > h3{
+  display: block;
+  opacity: 1;
+  z-index: 5;
+  -webkit-transition:	all 0.6s ease;
+  transition:	all 0.6s ease;
+}
+.illust:hover > .thumbnail{
+  -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  -o-filter: blur(3px);
+  -ms-filter: blur(3px);
+  filter: blur(3px);
+}
+.illust h3{
+  display: none;
+  opacity: 0;
+  text-shadow: 2px 2px 0 #ffffff;
+  text-align: center;
+  position: absolute;
+  z-index: 5;
+  -webkit-transition:	all 0.6s ease;
+  transition:	all 0.6s ease;
+}
+.illust .name{
+  text-align: right;
+}
+.thumbnail{
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  -webkit-transition:	all 0.6s ease;
+  transition:	all 0.6s ease;
+  position: relative;
+}
+.icons{
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+/*--Studyページ独自設定--*/
+.accshow ul{
+  list-style: none;
+}
+
+/*--モバイル表示--*/
+@media screen and (max-width: 900px) {
+  .about-main h2{
+    background: #000000;
+    color: #ffffff;
+    border-radius: 10px 10px 0 0;
+    padding: 10px 0 0 10px;
+    margin: 0;
+  }
+  .about-main .content{
+    background: #fff;
+    padding: 10px;
+    margin: 0;
+  }
+  .illust-content{
+    display: none;
+  }
+  .illust{
+    text-align: center;
+    padding: 0;
+    margin: 5px 5px;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background: #eaeaea;
+    border-left: double 7px #eaeaea;/*左線*/
+    border-right: double 7px #eaeaea;/*右線*/
+    -webkit-transition:	all 0.6s ease;
+    transition:	all 0.6s ease;
+  }
+  .illust:hover{
+    background: #d4d4d4;
+    border-left: double 7px #4ec4d3;/*左線*/
+    border-right: double 7px #4ec4d3;/*右線*/
+    width: 200px;
+    -webkit-transition:	all 0.6s ease;
+    transition:	all 0.6s ease;
+  }
+  .illust:hover > h3{
+    display: block;
+    opacity: 1;
+    z-index: 5;
+    -webkit-transition:	all 0.6s ease;
+    transition:	all 0.6s ease;
+  }
+  .illust:hover > .thumbnail{
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+    filter: blur(3px);
+  }
+  .illust h3{
+    display: none;
+    opacity: 0;
+    text-shadow: 2px 2px 0 #ffffff;
+    text-align: center;
+    position: absolute;
+    z-index: 5;
+    -webkit-transition:	all 0.6s ease;
+    transition:	all 0.6s ease;
+  }
+  .illust .name{
+    text-align: right;
+  }
+  .thumbnail{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    -webkit-transition:	all 0.6s ease;
+    transition:	all 0.6s ease;
+    position: relative;
+  }
+  .icons{
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+}

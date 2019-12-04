@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+
+<head>
+  <!--Metas-->
+  <meta charset="utf-8">
+  <meta lang="ja">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <!--Title-->
+  <title>企画開発部 Study</title>
+
+  <!--Links-->
+  <link rel="shortcut icon" href="./image/top_s/wakata_ico.png">
+  <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet"><!--Font-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"><!--アコーディオンメニューの矢印アイコン-->
+
+  <!--CSS-->
+  <link rel="stylesheet" type="text/css" href="./css/layout.css?00">
+  <link rel="stylesheet" type="text/css" href="./css/header.css">
+  <link rel="stylesheet" type="text/css" href="./css/illust.css"><!--イラストページのCSSをそのまま使用しています。仕様です。-->
+  <link rel="stylesheet" type="text/css" href="./css/footer.css">
+
+  <!--Scripts-->
+  <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+
+
+</head>
+
+
+<body>
+  <div id="layout">
+    <header id="site_header" class="site_header">
+      <div class="header_logo">
+        <div id="nav-drawer">
+          <input id="nav-input" type="checkbox" class="nav-unshown">
+          <label id="nav-open" for="nav-input"><span></span></label>
+          <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+          <div id="nav-content">
+            <nav id="navi-menu-moile" class="menu-mobile">
+              <ul>
+                <li><a href="./index.html" id="top">Top</a></li>
+                <li><a href="./about.html" id="about">About</a></li>
+                <li><a href="./news.html" id="news">News</a></li>
+                <li><a href="./member.html" id="member">Member</a></li>
+                <li><a href="./game.html" id="game">Game</a></li>
+                <li><a href="./illust.html" id="illust">Illust</a></li>
+                <li><a href="./study.html" id="study">Study</a></li>
+              </ul>
+            </nav>
+            <label class="return-btn" for="nav-input"><p>←Close</p></label>
+          </div>
+        </div>
+        <div class="logo">
+          <img class="aniv-logo" src="./image/20th_aniv.png">
+          <a href="index.html"><img class="main-logo" src="./image/logo.png"></a>
+        </div>
+      </div>
+
+      <nav id="navi-menu" class="menu">
+        <ul class="menu_ul">
+          <li class="menu_item"><a href="./index.html" id="top">Top</a></li>
+          <li class="menu_item"><a href="./about.html" id="about">About</a></li>
+          <li class="menu_item"><a href="./news.html" id="news">News</a></li>
+          <li class="menu_item"><a href="./member.html" id="member">Member</a></li>
+          <li class="menu_item"><a href="./game.html" id="game">Game</a></li>
+          <li class="menu_item"><a href="./illust.html" id="illust">Illust</a></li>
+          <li class="menu_item"><a href="./study.html" id="study">Study</a></li>
+        </ul>
+      </nav>
+
+    </header>
+
+    <div class="about-main">
+
+      <h2>Skill Up Study</h2>
+      <div class="content">
+        <p class="outline">
+          毎年、部内で新入生向けに行われている各種勉強会での資料です。<br>
+          部員が分担し、主にゲーム制作における各役職について説明しています。<br>
+          ご覧いただけるものもありますので、何かのヒントになれば幸いです。
+        </p>
+
+        <div class="accbox">
+
+          <!--20018年度-------------------------------------------------------------------------------------------------------->
+          <label for="2018"><i class="fas fa-angle-right"></i>2018年度</label>
+          <input type="checkbox" id="2018" class="cssacc" />
+          <div class="accshow">
+            <p>2018年の勉強会の資料です。役職ごとに資料があります。</p>
+
+            <!--Programmer-->
+            <label class="accjob" for="2018-prog"><i class="fas fa-angle-right"></i>Programmer</label>
+            <input type="checkbox" id="2018-prog" class="cssacc-job" />
+            <div class="accshow-job">
+              <p>2018年のプログラマー勉強会の資料です。</p>
+              <ul>
+                <li><a href="./game_study/2018/prog/2018_prog_1st.pdf" target="_blank">プログラマー勉強会 1回目</a></li>
+                <li><a href="./game_study/2018/prog/2018_prog_2nd.pdf" target="_blank">プログラマー勉強会 2回目</a></li>
+                <li><a href="./game_study/2018/prog/2018_prog_3rd.pdf" target="_blank">プログラマー勉強会 3回目</a></li>
+                <li><a href="./game_study/2018/prog/SDL2install.pdf" target="_blank">SDL2インストール(Macユーザー向け)</a></li>
+                <li><a href="./game_study/2018/prog/VisialStudioinstall.pdf" target="_blank">Visual Studioインストール(Windows ユーザー向け)</a></li>
+              </ul>
+            </div>
+
+            <!--Graphicer-->
+            <label class="accjob" for="2018-graph"><i class="fas fa-angle-right"></i>Graphicer</label>
+            <input type="checkbox" id="2018-graph" class="cssacc-job" />
+            <div class="accshow-job">
+              <p>2018年のグラフィッカー勉強会の資料です。</p>
+              <ul>
+                <li><a href="./game_study/2018/graph/2018_graph_1st.pdf" target="_blank">グラフィッカー勉強会 1日目</a></li>
+                <li><a href="./game_study/2018/graph/2018_graph_2nd.pdf" target="_blank">ちっとも参考にならないお絵描きの流れ</a></li>
+                <li><a href="./game_study/2018/graph/2018_graph_3rd.pdf" target="_blank">ドット絵を描こうfirealpaca</a></li>
+                <li><a href="./game_study/2018/graph/2018_graph_4th.pdf" target="_blank">説明会で没になったグラフィッカー説明</a></li>
+              </ul>
+            </div>
+
+            <!--Graphicer-->
+            <label class="accjob" for="2018-sound"><i class="fas fa-angle-right"></i>Sound</label>
+            <input type="checkbox" id="2018-sound" class="cssacc-job" />
+            <div class="accshow-job">
+              <p>2018年のサウンド勉強会の資料です。</p>
+              <ul>
+                <li><a href="./game_study/2018/sound/2018_sound_1.pdf" target="_blank">サウンドのお仕事とは</a></li>
+                <li><a href="./game_study/2018/sound/2018_sound_2.pdf" target="_blank">ゲームサウンドの作り方</a></li>
+                <li><a href="./game_study/2018/sound/How_to_set_Up_for_Domino.pdf" target="_blank">How to setup for Domino</a></li>
+                <li><a href="./game_study/2018/sound/2018_sound_4.pdf" target="_blank">オリジナルを作ろう</a></li>
+                <li><a href="./game_study/2018/sound/How_to_Install_for_Studio_One3_Prime.pdf" target="_blank">How to Install for Studio One3 Prime</a></li>
+                <li><a href="./game_study/2018/sound/2018_sound_6.pdf" target="_blank">Studio One3 追加コンテンツのインストール手順</a></li>
+                <li><a href="./game_study/2018/sound/2018_sound_7.pdf" target="_blank">DAWから始まる物語</a></li>
+                <li><a href="./game_study/2018/sound/2018_sound_8.pdf" target="_blank">はぅとぅ～耳コピ</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!--20017年度------------------------------------------------------------------------------------------------------------------------>
+          <label for="2017"><i class="fas fa-angle-right"></i>2017年度</label>
+          <input type="checkbox" id="2017" class="cssacc" />
+          <div class="accshow">
+            <p>2017年の勉強会の資料です。役職ごとに資料があります。</p>
+
+            <!--Programmer-->
+            <label class="accjob" for="2017-prog"><i class="fas fa-angle-right"></i>Programmer</label>
+            <input type="checkbox" id="2017-prog" class="cssacc-job" />
+            <div class="accshow-job">
+              <p>2017年のプログラマー勉強会の資料です。</p>
+              <ul>
+                <li><a href="./game_study/2017/prog/2017_prog_1st.pdf" target="_blank">プログラマー勉強会 1日目</a></li>
+                <li><a href="./game_study/2017/prog/2017_prog_2nd.pdf" target="_blank">プログラマー勉強会 2日目</a></li>
+                <li><a href="./game_study/2017/prog/2017_prog_3rd.pdf" target="_blank">プログラマー勉強会 3日目</a></li>
+                <li><a href="./game_study/2017/prog/2017_prog_4th.pdf" target="_blank">プログラマー勉強会 4日目</a></li>
+                <li><a href="./game_study/2017/prog/2017_winter_prog_1st.pdf" target="_blank">冬のプログラマー勉強会 1日目</a></li>
+                <li><a href="./game_study/2017/prog/2017_winter_prog_2bd.pdf" target="_blank">冬のプログラマー勉強会 2日目</a></li>
+              </ul>
+            </div>
+
+            <!--Graphicer-->
+            <label class="accjob" for="2017-graph"><i class="fas fa-angle-right"></i>Graphicer</label>
+            <input type="checkbox" id="2017-graph" class="cssacc-job" />
+            <div class="accshow-job">
+              <p>2017年のグラフィッカー勉強会の資料です。</p>
+              <ul>
+                <li><a href="./game_study/2017/graph/2017graph.pdf" target="_blank">グラフィッカー勉強会資料</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!--2009年度------------------------------------------------------------------------------------------------------------->
+          <label for="2009"><i class="fas fa-angle-right"></i>2009年度</label>
+          <input type="checkbox" id="2009" class="cssacc" />
+          <div class="accshow">
+            <ul>
+              <li><a href="./game_study/2009study01_1.pdf">01-1 ゲーム制作の流れ（PDF）</a></li>
+              <li><a href="./game_study/2009study01_2.pdf">01-2 企画書と仕様書の違い（PDF）</a></li>
+              <li><a href="./game_study/2009study01_3.pdf">01-3 ゲーム企画書の例（PDF）</a></li>
+              <li><a href="./game_study/2009study01_4.pdf">01-4 ゲーム仕様書の例（PDF）</a></li>
+              <li><a href="./game_study/2009study02.pdf">02 ドット絵（PDF）</a></li>
+              <li><a href="./game_study/2009study03.pdf">03 ループ（PDF）</a></li>
+              <li><a href="./game_study/2009study04.pdf">04 移動・入力（PDF）</a></li>
+              <li><a href="./game_study/2009study05.pdf">05 当たり判定（PDF）</a></li>
+              <li><a href="./game_study/2009study06.pdf">06 描画（PDF）</a></li>
+            </ul>
+          </div>
+
+          <!--2008年度----------------------------------------------------------------------------------------------------->
+          <label for="2008"><i class="fas fa-angle-right"></i>2008年度</label>
+          <input type="checkbox" id="2008" class="cssacc" />
+          <div class="accshow">
+            <ul>
+              <li>01 ゲーム制作の流れ</li>
+              <li><a href="./game_study/2008study02.pdf">02 ループ（PDF）</a></li>
+              <li><a href="./game_study/2008study03.pdf">03 移動・入力（PDF）</a></li>
+              <li>04 当たり判定</li>
+              <li><a href="./game_study/2008study05.pdf">05 描画（PDF）</a></li>
+              <li><a href="./game_study/2008study_ex1.zip">ex1 アルゴリズム編 第1回（ZIP）</a></li>
+              <li><a href="./game_study/2008study_ex2.zip">ex2 アルゴリズム編 第2回（ZIP）</a></li>
+            </ul>
+          </div>
+
+          <!--2007年度-------------------------------------------------------------------------------------------------------->
+          <label for="2007"><i class="fas fa-angle-right"></i>2007年度</label>
+          <input type="checkbox" id="2007" class="cssacc" />
+          <div class="accshow">
+            <ul>
+              <li><a href="./game_study/progstudy01.pdf">01 ループ（PDF）</a></li>
+              <li><a href="./game_study/progstudy02_1.pdf">02-1 描画（PDF）</a></li>
+              <li><a href="./game_study/progstudy02_2.pdf">02-2 付録（ダブルバッファリングの流れ）（PDF）</a></li>
+              <li><a href="./game_study/progstudy03.pdf">03 移動・入力について（PDF）</a></li>
+              <li><a href="./game_study/progstudy04.pdf">04 当たり判定(PDF)</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+      <footer>
+        <div class="warning">Copyright : 企画開発部 PandD</div>
+        <div class="warning">当サイト上のバナーを除くあらゆるデータの無断複製、無断転載を禁止します</div>
+      </footer>
+
+    </div>
+  </div>
+
+</body>
+
+</html>
