@@ -5,7 +5,8 @@ $(function(){
   //----------------------------------------------------------------
   var images = [
     './image/404/404_juen.jpg',
-    './image/404/404_oyu.png'
+    './image/404/404_oyu.png',
+    './image/404/404_nacht.jpg'
   ];
   //----------------------------------------------------------------
   var randimg = images[Math.floor(Math.random() * images.length)];
