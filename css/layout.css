@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 * {
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: "M PLUS Rounded 1c", sans-serif;
 }
 html {
   min-height: 100%;
@@ -15,12 +15,12 @@ body {
   -webkit-text-size-adjust: 100%;
   margin: 0;
 }
-a{
+a {
   text-decoration: none;
 }
 
 /*----ロード画面----*/
-#loading{
+#loading {
   position: absolute;
   left: 50%;
   top: 30%;
@@ -31,37 +31,37 @@ a{
   height: 100%;
   top: 0px;
   left: 0px;
-  background: #FFF;
+  background: #fff;
   z-index: 1;
 }
 
-.main{
+.main {
   margin-top: 15%;
   width: 100%;
   height: 100%;
   text-align: center;
 }
-.about-main{
+.about-main {
   margin-top: 15%;
 }
-#layout{
+#layout {
   display: block;
   padding-bottom: 80px;
   height: auto;
 }
-#site_header{
+#site_header {
   position: fixed;
   width: 100%;
   z-index: 2;
   transition: 1.5s;
 }
-#navi-menu{
+#navi-menu {
   padding: 5px 0;
 }
-#nav-drawer{
+#nav-drawer {
   display: none;
 }
-#right-container{
+#right-container {
   text-align: left;
   display: inline-block;
   position: static;
@@ -69,11 +69,11 @@ a{
   vertical-align: top;
   margin-left: 5%;
 }
-#right-container > #twitter > .twitter{
+#right-container > #twitter > .twitter {
   display: block;
   text-align: center;
 }
-#left-container{
+#left-container {
   text-align: left;
   display: inline-block;
   position: static;
@@ -82,25 +82,25 @@ a{
 }
 /*----ハンバーガーメニュー＆ナビゲーションドロワー----*/
 @media screen and (max-width: 900px) {
-  #navi-menu{
+  #navi-menu {
     display: none;
   }
-  #nav-drawer{
+  #nav-drawer {
     display: block;
   }
 
-  .logo{
+  .logo {
     width: 100%;
   }
-  .logo img{
+  .logo img {
     width: 300px;
   }
-  .update{
+  .update {
     width: 100%;
   }
 }
 @media screen and (max-width: 1200px) {
-  #right-container{
+  #right-container {
     width: 70%;
     display: block;
     position: static;
@@ -109,11 +109,11 @@ a{
     margin: 10px auto;
     padding: 0 10px;
   }
-  #right-container > #twitter{
+  #right-container > #twitter {
     display: block;
     text-align: center;
   }
-  #left-container{
+  #left-container {
     width: 90%;
     display: block;
     position: static;
@@ -122,25 +122,25 @@ a{
     margin: 0 auto;
     padding: 0 10px;
   }
-  .clear{
+  .clear {
     clear: both;
   }
   /*フッターの条件設定*/
-  footer{
+  footer {
     text-align: center;
     width: auto;
   }
-  .footer-left{
+  .footer-left {
     display: block;
     padding: 17px 10px 0;
   }
-  .footer-right > *{
+  .footer-right > * {
     display: none;
   }
 }
 
 /*--新入生向け情報関係--*/
-#modal{
+#modal {
   z-index: 999;
   position: absolute;
   display: block;
@@ -154,12 +154,19 @@ a{
   opacity: 1;
 }
 
-#modal .modal-content{
+#modal img.panddchan {
+  position: relative;
+  border-radius: 50%;
+  width: 25%;
+  height: 25%;
+}
+
+#modal .modal-content {
   width: 80%;
   height: auto;
   background-color: royalblue;
   position: relative;
-  transform: translate(-50% , -50%);
+  transform: translate(-50%, -50%);
   top: 0%;
   left: 50%;
   margin-top: 25%;
@@ -167,18 +174,44 @@ a{
   text-align: center;
 }
 
+#modal .modal-content .textbox {
+  margin: 10px 5%;
+  padding: 5%;
+  background-color: skyblue;
+}
+
+#modal .modal-content .textbox h1 a:link {
+  color: #0000ff;
+}
+#modal .modal-content .textbox h1 a:visited {
+  color: #000080;
+}
+#modal .modal-content .textbox h1 a:hover {
+  color: #ff0000;
+}
+#modal .modal-content .textbox h1 a:active {
+  color: #ff8000;
+}
+
 @media screen and (max-width: 1200px) {
-  #modal .modal-content{
+  #modal .modal-content {
     width: 90%;
     height: auto;
     background-color: royalblue;
     position: relative;
-    transform: translate(-50% , -5%);
+    transform: translate(-50%, -5%);
     top: 5%;
     left: 50%;
     margin-top: 25%;
     padding: 20px 0;
     text-align: center;
+  }
+
+  #modal img.panddchan {
+    position: relative;
+    border-radius: 50%;
+    width: 30%;
+    height: 30%;
   }
 }
 
