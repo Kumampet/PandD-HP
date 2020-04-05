@@ -138,3 +138,60 @@ a{
     display: none;
   }
 }
+
+/*--新入生向け情報関係--*/
+#modal{
+  z-index: 999;
+  position: absolute;
+  display: block;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.486);
+  overflow: hidden;
+  opacity: 1;
+}
+
+#modal .modal-content{
+  width: 80%;
+  height: auto;
+  background-color: royalblue;
+  position: relative;
+  transform: translate(-50% , -50%);
+  top: 0%;
+  left: 50%;
+  margin-top: 25%;
+  padding: 20px 0;
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  #modal .modal-content{
+    width: 90%;
+    height: auto;
+    background-color: royalblue;
+    position: relative;
+    transform: translate(-50% , -5%);
+    top: 5%;
+    left: 50%;
+    margin-top: 25%;
+    padding: 20px 0;
+    text-align: center;
+  }
+}
+
+/* 13px @ 200px increasing to 32px @ 1200px */
+@media (min-width: 200px) {
+  #modal .modal-content h1 {
+    font-size: calc(0.8125rem + ((1vw - 2px) * 1.9));
+    /* Where: * 1.9 = 100 * font_Size_Difference / viewport_Width_Difference */
+  }
+}
+/* Prevent font scaling beyond this breakpoint */
+@media (min-width: 1200px) {
+  #modal .modal-content h1 {
+    font-size: 32px;
+  }
+}
