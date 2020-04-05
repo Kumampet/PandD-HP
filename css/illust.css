@@ -92,7 +92,7 @@
   max-width: 100%;/*最大幅*/
 }
 /*ラベル*/
-.accbox label {
+.accbox label,.contact {
   display: block;
   margin: 1.5px 0;
   padding : 11px 12px;
