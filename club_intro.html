@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<head>
+  <!--Metas-->
+  <meta charset="utf-8">
+  <meta lang="ja">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <!--Title-->
+  <title>企画開発部 Study</title>
+
+  <!--Links-->
+  <link rel="shortcut icon" href="./image/top_s/wakata_ico.png">
+  <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet"><!--Font-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"><!--アコーディオンメニューの矢印アイコン-->
+
+  <!--CSS-->
+  <link rel="stylesheet" type="text/css" href="./css/layout.css?00">
+  <link rel="stylesheet" type="text/css" href="./css/header.css">
+  <link rel="stylesheet" type="text/css" href="./css/illust.css"><!--イラストページのCSSをそのまま使用しています。仕様です。-->
+  <link rel="stylesheet" type="text/css" href="./css/footer.css">
+
+  <!--Scripts-->
+  <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+
+
+</head>
+
+
+<body>
+  <div id="layout">
+    <header id="site_header" class="site_header">
+      <div class="header_logo">
+        <div id="nav-drawer">
+          <input id="nav-input" type="checkbox" class="nav-unshown">
+          <label id="nav-open" for="nav-input"><span></span></label>
+          <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+          <div id="nav-content">
+            <nav id="navi-menu-moile" class="menu-mobile">
+              <ul>
+                <li><a href="./index.html" id="top">Top</a></li>
+                <li><a href="./about.html" id="about">About</a></li>
+                <li><a href="./news.html" id="news">News</a></li>
+                <li><a href="./member.html" id="member">Member</a></li>
+                <li><a href="./game.html" id="game">Game</a></li>
+                <li><a href="./illust.html" id="illust">Illust</a></li>
+                <li><a href="./study.html" id="study">Study</a></li>
+              </ul>
+            </nav>
+            <label class="return-btn" for="nav-input"><p>←Close</p></label>
+          </div>
+        </div>
+        <div class="logo">
+          <!-- <img class="aniv-logo" src="./image/20th_aniv.png"> -->
+          <a href="index.html"><img class="main-logo" src="./image/logo.png"></a>
+        </div>
+      </div>
+
+      <nav id="navi-menu" class="menu">
+        <ul class="menu_ul">
+          <li class="menu_item"><a href="./index.html" id="top">Top</a></li>
+          <li class="menu_item"><a href="./about.html" id="about">About</a></li>
+          <li class="menu_item"><a href="./news.html" id="news">News</a></li>
+          <li class="menu_item"><a href="./member.html" id="member">Member</a></li>
+          <li class="menu_item"><a href="./game.html" id="game">Game</a></li>
+          <li class="menu_item"><a href="./illust.html" id="illust">Illust</a></li>
+          <li class="menu_item"><a href="./study.html" id="study">Study</a></li>
+        </ul>
+      </nav>
+
+    </header>
+
+    <div class="about-main">
+
+      <h2>新入生向け情報</h2>
+      <div class="content">
+        <p class="outline">
+          今年は新型コロナウイルスの影響で、みんなで集まって説明会をする機会がなくなってしまったので、こちらに掲載させていただきます。
+        </p>
+
+        <div class="accbox">
+
+          <!--20018年度-------------------------------------------------------------------------------------------------------->
+          <label for="2018"><i class="fas fa-angle-right"></i>新入生向け情報(ここをクリック！)</label>
+          <input type="checkbox" id="2018" class="cssacc" />
+          <div class="accshow">
+            <p>新入生向けのスライドです。</p>
+
+            <!--Club-->
+            <label class="accjob" for="2018-prog"><i class="fas fa-angle-right"></i>全体説明</label>
+            <input type="checkbox" id="2018-prog" class="cssacc-job" />
+            <div class="accshow-job">
+              <p>企画開発部全体についての資料です。</p>
+              <ul>
+                <li><a href="./club_intro/kikaku_intro.pdf" target="_blank">企画開発部とは</a></li>
+                
+              </ul>
+            </div>
+
+            <!--Programmer-->
+            <label class="accjob" for="club"><i class="fas fa-angle-right"></i>Programmer</label>
+            <input type="checkbox" id="club" class="cssacc-job" />
+            <div class="accshow-job">
+              <p>プログラマーの資料です。</p>
+              <ul>
+                <li><a href="#" target="_blank">プログラマー</a></li>
+                
+              </ul>
+            </div>
+
+            <!--Graphicer-->
+            <label class="accjob" for="2018-graph"><i class="fas fa-angle-right"></i>Graphicer</label>
+            <input type="checkbox" id="2018-graph" class="cssacc-job" />
+            <div class="accshow-job">
+              <p>グラフィッカーの資料です。</p>
+              <ul>
+                <li><a href="#" target="_blank">グラフィッカー</a></li>
+              </ul>
+            </div>
+
+            <!--Sound-->
+            <label class="accjob" for="2018-sound"><i class="fas fa-angle-right"></i>Sound</label>
+            <input type="checkbox" id="2018-sound" class="cssacc-job" />
+            <div class="accshow-job">
+              <p>サウンドの資料です。</p>
+              <ul>
+                <li><a href="./club_intro/sound/sound_intro_2020.pdf" target="_blank">サウンド</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <footer>
+        <div class="warning">Copyright : 企画開発部 PandD</div>
+        <div class="warning">当サイト上のバナーを除くあらゆるデータの無断複製、無断転載を禁止します</div>
+      </footer>
+
+    </div>
+  </div>
+
+</body>
+
+</html>
