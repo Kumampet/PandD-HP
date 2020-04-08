@@ -7,10 +7,10 @@ html {
   min-height: 100%;
   position: relative;
 }
+
 body {
   background: white;
   background-color: #edece9;
-  /* background-image: url("../image/****"); */
   color: #333333;
   -webkit-text-size-adjust: 100%;
   margin: 0;
